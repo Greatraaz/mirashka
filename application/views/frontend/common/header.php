@@ -82,7 +82,7 @@
                   <div class="navbar-collapse  collapse" id="navbarCollapse">
                      <ul class="navbar-nav navbar-nav-scroll dropdown-hover mx-auto">
                         <li class="nav-item dropdown dropdown-fullwidth me-n2">
-               <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Who We are </a>
+               <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Who We ares </a>
                <?php $this->load->view('frontend/component/megamenu/whowe'); ?>
                </li>
                <li class="nav-item dropdown dropdown-fullwidth me-n2">
