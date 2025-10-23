@@ -489,7 +489,7 @@ public function brandgrowthhighlights() {
 	public function blogs()
 	{
 		$page = $this->input->get('page') ? $this->input->get('page') : 1;
-		$json_url = 'https://mirashka.digital/mirashka-blog/wp-json/wp/v2/posts?per_page=7&page=' . $page;
+		$json_url = 'https://mirashka.digital/mirashka-blog/wp-json/wp/v2/posts?per_page=12&page=' . $page . '&_embed';
 		$ch = curl_init($json_url);
 		$options = array(
 			CURLOPT_RETURNTRANSFER => true,
