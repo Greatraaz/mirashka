@@ -1,5 +1,8 @@
-<!-- =======================
-Main Banner START -->
+<style type="text/css">
+.card-hover-shadow{
+    cursor: pointer;
+}
+</style>
 <section class="pt-0">
     <!-- Slider START -->
     <div class="swiper overflow-hidden sliderh "   data-swiper-options='{
@@ -28,12 +31,12 @@ Main Banner START -->
                     <!-- Card image overlay -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
-                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">🚀 Where Ideas Spark into Possibilities</span>
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center mt-auto">
+                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Light the Brand Fuse</span>
                                     <!-- Title -->
-                                    <h1 class="text-white display-7 my-4"><span class="text-primary">Ignite </span> Your Digital Vision</h1>
-                                    <p class="text-white mb-5"> Fuel your brand’s journey with creativity and innovation that set the foundation for digital transformation. </p>
+                                    <h1 class="text-white display-7 my-4">From <span class="text-primary">whisper </span> to icon, your story catches fire.</h1>
+                                    <p class="text-white mb-5">Strategy, voice, and visuals snap into place, shaping symbols customers remember, repeat, and recommend across touchpoints, markets, and moments worldwide.</p>
                                     <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
                                 </div>
                             </div>
@@ -51,10 +54,10 @@ Main Banner START -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-11 col-lg-8 mt-auto">
-                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Build the Base that Lasts</span>
-                                    <h2 class="text-white display-7 mb-4 my-4"><span class="text-primary">Establish </span> a Powerful Digital Presence</h2>
-                                    <p class="text-white mb-5">Create a strong digital identity with designs, strategies, and systems built to deliver credibility and long-term impact.</p>
+                                <div class="col-md-10 mt-auto">
+                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Build Your Digital Bedrock</span>
+                                    <h2 class="text-white display-7 mb-4 my-4">Beautiful interfaces atop <span class="text-primary">bulletproof </span>, scalable engineering that lasts.</h2>
+                                    <p class="text-white mb-5">Web, commerce, and mobile stitched to secure clouds, clean code, and APIs that evolve gracefully without debt, downtime, or drama.</p>
                                     <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
                                 </div>
                             </div>
@@ -71,12 +74,12 @@ Main Banner START -->
                     <!-- Card image overlay -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
-                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Make Every Pixel Speak Louder</span>
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center mt-auto">
+                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Make The Market Listen</span>
                                     <!-- Title -->
-                                    <h1 class="text-white display-7 my-4"><span class="text-primary">Amplify </span> Your Brand’s Voice</h1>
-                                    <p class="text-white mb-5">Boost your reach with targeted marketing, engaging content, and strategies that make your brand impossible to ignore.</p>
+                                    <h1 class="text-white display-7 my-4">Turn <span class="text-primary">attention </span> into demand, and demand into momentum</h1>
+                                    <p class="text-white mb-5">Search, social, PR, reviews, and maps orchestrated to compound trust, spark action, and stretch every rupee further than yesterday consistently.</p>
                                     <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
                                 </div>
                             </div>
@@ -94,11 +97,11 @@ Main Banner START -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-11 col-lg-8 mt-auto">
-                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Adapt. Innovate. Lead.</span>
+                                <div class="col-md-10 mt-auto">
+                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Scale Without The Overheads</span>
                                     <!-- Title -->
-                                    <h2 class="text-white display-7 mb-4 my-4"><span class="text-primary">Evolve </span> with the Digital World</h2>
-                                    <p class="text-white mb-5">Stay ahead of trends with solutions that evolve alongside your business and the ever-changing digital ecosystem.</p>
+                                    <h2 class="text-white display-7 mb-4 my-4"><span class="text-primary">Plug in experts</span>, processes, and automation on demand.</h2>
+                                    <p class="text-white mb-5">Dedicated talent, documented playbooks, and quiet bots simplifying delivery, reducing cost, and raising quality—week after week, sprint after sprint relentlessly.</p>
                                     <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
                                 </div>
                             </div>
@@ -115,12 +118,12 @@ Main Banner START -->
                     <!-- Card image overlay -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-sm-11 col-lg-8 col-xl-7 text-center m-auto">
-                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Trust Built on Protection</span>
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center mt-auto">
+                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Defend What Matters Most</span>
                                     <!-- Title -->
-                                    <h1 class="text-white display-7 my-4"><span class="text-primary">Secure </span> What Matters Most</h1>
-                                    <p class="text-white mb-5">We safeguard your data, reputation, and digital assets with robust security systems and proactive risk management.</p>
+                                    <h1 class="text-white display-7 my-4"><span class="text-primary">Close gaps fast, </span> protect data, preserve reputation everywhere.</h1>
+                                    <p class="text-white mb-5">VAPT, cybersecurity operations, and ORM war-rooms that watch, warn, and fix before headlines form—measurable resilience, auditable controls, calm teams daily.</p>
                                     <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
                                 </div>
                             </div>
@@ -138,11 +141,11 @@ Main Banner START -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row">
-                                <div class="col-sm-11 col-lg-8 mt-auto">
-                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">From Momentum to Mastery</span>
+                                <div class="col-md-10 mt-auto">
+                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Squeeze More From Spend</span>
                                     <!-- Title -->
-                                    <h2 class="text-white display-7 mb-4 my-4"><span class="text-primary">Accelerate </span> Towards Success</h2>
-                                    <p class="text-white mb-5">Drive measurable growth through smart automation, analytics, and performance-driven strategies that push your business forward faster.</p>
+                                    <h2 class="text-white display-7 mb-4 my-4">Experiment, automate, and scale <span class="text-primary">profitable growth </span> intelligently today</h2>
+                                    <p class="text-white mb-5">CRO, funnels, hyperlocal plays, and living dashboards that reveal truth, reward winners, and redirect budget toward incremental, compounding revenue faster.</p>
                                     <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
                                 </div>
                             </div>
@@ -333,25 +336,92 @@ Main Banner END -->
     </div>
 </section>
 
-<!-- Services START --> 
-<section class="bg-light overflow-hidden">
-   <div class="container">
-      <!-- Title and content -->
-      <div class="row mb-4 mb-md-6">
-         <div class="col-md-6 col-lg-5">
-            <h2 class="mb-0 heading-color ">WHAT WE DO </h2>
-         </div>
-         <div class="col-md-6 col-lg-4 ms-auto heading-color">
-            <p>We are at the cutting edge of professional IT Services </p>
-            <!-- Slider arrow -->
-            <div class="d-flex gap-3 position-relative mt-3">
-               <a href="#" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-prev-team"><i class="bi bi-arrow-left"></i></a>
-               <a href="#" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-next-team"><i class="bi bi-arrow-right"></i></a>
+<section class="pt-0">
+    <div class="container-fluid">
+        <!-- Title -->
+        <div class="inner-container-small text-center mb-4 mb-sm-6">
+            <h2>A squad of talented members</h2>
+            <p class="mb-0">We are a close-knit squad of exceptionally talented individuals who are passionate about all things digital.</p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-2">
+                <div class="card card-body card-hover-shadow shadow bg-transparent text-center p-3" id="ignite">
+                    <div class="avatar avatar-xxl mx-auto flex-shrink-0 mb-3">
+                        <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/04.jpg" alt="avatar">
+                    </div>
+                    <h6 class="mb-1">Ignite</h6>
+                    <small>Sub Text Will be here</small>
+                </div>
             </div>
-         </div>
-      </div>
-      <!-- Service start -->
-      <div class="swiper swiper-outside-end-n20" data-swiper-options='{
+            <div class="col-md-2">
+                <div class="card card-body card-hover-shadow shadow bg-transparent text-center p-3" id="establish">
+                    <div class="avatar avatar-xxl mx-auto flex-shrink-0 mb-3">
+                        <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/04.jpg" alt="avatar">
+                    </div>
+                    <h6 class="mb-1">Establish</h6>
+                    <small>Sub Text Will be here</small>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card card-body card-hover-shadow shadow bg-transparent text-center p-3" id="amplify">
+                    <div class="avatar avatar-xxl mx-auto flex-shrink-0 mb-3">
+                        <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/04.jpg" alt="avatar">
+                    </div>
+                    <h6 class="mb-1">Amplify</h6>
+                    <small>Sub Text Will be here</small>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card card-body card-hover-shadow shadow bg-transparent text-center p-3" id="evolve">
+                    <div class="avatar avatar-xxl mx-auto flex-shrink-0 mb-3">
+                        <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/04.jpg" alt="avatar">
+                    </div>
+                    <h6 class="mb-1">Evolve</h6>
+                    <small>Sub Text Will be here</small>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card card-body card-hover-shadow shadow bg-transparent text-center p-3" id="secure">
+                    <div class="avatar avatar-xxl mx-auto flex-shrink-0 mb-3">
+                        <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/04.jpg" alt="avatar">
+                    </div>
+                    <h6 class="mb-1">Secure</h6>
+                    <small>Sub Text Will be here</small>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="card card-body card-hover-shadow shadow bg-transparent text-center p-3" id="accelerate">
+                    <div class="avatar avatar-xxl mx-auto flex-shrink-0 mb-3">
+                        <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/04.jpg" alt="avatar">
+                    </div>
+                    <h6 class="mb-1">Accelerate</h6>
+                    <small>Sub Text Will be here</small>
+                </div>
+            </div>
+
+        </div>
+    </div>  
+</section>
+
+<section class="bg-light overflow-hidden" id="appendHere">
+    <div class="container">
+       <!-- Title and content -->
+       <div class="row mb-4 mb-md-6">
+          <div class="col-md-6 col-lg-5">
+             <h2 class="mb-0 heading-color ">Ignite Services</h2>
+          </div>
+          <div class="col-md-6 col-lg-4 ms-auto heading-color">
+             <p>We are at the cutting edge of professional IT Services </p>
+             <!-- Slider arrow -->
+             <div class="d-flex gap-3 position-relative mt-3">
+                <a href="#" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-prev-team"><i class="bi bi-arrow-left"></i></a>
+                <a href="#" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-next-team"><i class="bi bi-arrow-right"></i></a>
+             </div>
+          </div>
+       </div>
+       <!-- Service start -->
+       <div class="swiper swiper-outside-end-n20 iskok" data-swiper-options='{
          "spaceBetween": 50,
          "loop": false,
          "navigation":{
@@ -364,118 +434,102 @@ Main Banner END -->
          "992": {"slidesPerView": 3},
          "1200": {"slidesPerView": 4}
          }}'>
-         <div class="swiper-wrapper">
-            <!-- Service item -->
-            <div class="swiper-slide">
-               <div class="card card-img-scale bg-body overflow-hidden">
-                  <!-- Image -->
-                  <div class="card-img-scale-wrapper">
-                     <img src="<?=base_url('assets/frontend/images/services/4by3/01.jpg') ?>" class="card-img-top img-scale" alt="service image">
-                  </div>
-                  <!-- Card body -->
-                  <div class="card-body p-4">
-                     <h6><a href="#">Branding</a></h6>
-                     <p class="mb-0">We prioritize user experience, scalability, and security to ensure your.</p>
-                  </div>
-                  <!-- Card footer -->
-                  <div class="card-footer border-top bg-body p-4">
-                     <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="#">Explore this service<i class="bi bi-arrow-right"></i> </a>
-                  </div>
-               </div>
-            </div>
-            <!-- Service item -->
-            <div class="swiper-slide">
-               <div class="card card-img-scale bg-body overflow-hidden">
-                  <!-- Image -->
-                  <div class="card-img-scale-wrapper">
-                     <img src="<?=base_url('assets/frontend/images/services/4by3/02.jpg') ?>" class="card-img-top img-scale" alt="service image">
-                  </div>
-                  <!-- Card body -->
-                  <div class="card-body p-4">
-                     <h6><a href="#">Advertising & Marketing</a></h6>
-                     <p class="mb-0">From responsive websites to e-commerce platforms.</p>
-                  </div>
-                  <!-- Card footer -->
-                  <div class="card-footer border-top bg-body p-4">
-                     <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="#">Explore this service<i class="bi bi-arrow-right"></i> </a>
-                  </div>
-               </div>
-            </div>
-            <!-- Service item -->
-            <div class="swiper-slide">
-               <div class="card card-img-scale bg-body overflow-hidden">
-                  <!-- Image -->
-                  <div class="card-img-scale-wrapper">
-                     <img src="<?=base_url('assets/frontend/images/services/4by3/03.jpg') ?>" class="card-img-top img-scale" alt="service image">
-                  </div>
-                  <!-- Card body -->
-                  <div class="card-body p-4">
-                     <h6><a href="#">Next-Gen Web & App Development</a></h6>
-                     <p class="mb-0">Reach your target drive results with our comprehensive digital marketing.</p>
-                  </div>
-                  <!-- Card footer -->
-                  <div class="card-footer border-top bg-body p-4">
-                     <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="#">Explore this service<i class="bi bi-arrow-right"></i> </a>
-                  </div>
-               </div>
-            </div>
-            <!-- Service item -->
-            <div class="swiper-slide">
-               <div class="card card-img-scale bg-body overflow-hidden">
-                  <!-- Image -->
-                  <div class="card-img-scale-wrapper">
-                     <img src="<?=base_url('assets/frontend/images/services/4by3/04.jpg') ?>" class="card-img-top img-scale" alt="service image">
-                  </div>
-                  <!-- Card body -->
-                  <div class="card-body p-4">
-                     <h6><a href="#">Digital Solutions</a></h6>
-                     <p class="mb-0">Protect your business from cyber threats with our cybersecurity solutions.</p>
-                  </div>
-                  <!-- Card footer -->
-                  <div class="card-footer border-top bg-body p-4">
-                     <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="#">Explore this service<i class="bi bi-arrow-right"></i> </a>
-                  </div>
-               </div>
-            </div>
-            <!-- Service item -->
-            <div class="swiper-slide">
-               <div class="card card-img-scale bg-body overflow-hidden">
-                  <!-- Image -->
-                  <div class="card-img-scale-wrapper">
-                     <img src="<?=base_url('assets/frontend/images/services/4by3/05.jpg') ?>" class="card-img-top img-scale" alt="service image">
-                  </div>
-                  <!-- Card body -->
-                  <div class="card-body p-4">
-                     <h6><a href="service-single.html">IT Consulting and Support</a></h6>
-                     <p class="mb-0">Leverage our expertise to optimize your IT infrastructure and operations.</p>
-                  </div>
-                  <!-- Card footer -->
-                  <div class="card-footer border-top bg-body p-4">
-                     <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="#">Explore this service<i class="bi bi-arrow-right"></i> </a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!-- Service END -->
-      <!-- CTA -->
-      <div class="d-flex align-items-center gap-2 mt-6">
-         <ul class="avatar-group mb-0">
-            <li class="avatar avatar-sm">
-               <img class="avatar-img rounded-circle" src="<?=base_url('assets/frontend/images/avatar/06.jpg') ?>" alt="avatar">
-            </li>
-            <li class="avatar avatar-sm">
-               <img class="avatar-img rounded-circle" src="<?=base_url('assets/frontend/images/avatar/05.jpg') ?>" alt="avatar">
-            </li>
-            <li class="avatar avatar-sm">
-               <div class="avatar-img rounded-circle text-bg-dark">
-                  <i class="bi bi-telephone text-white position-absolute top-50 start-50 translate-middle"></i>
-               </div>
-            </li>
-         </ul>
-         <p class="fw-normal mb-0 heading-color">Maximize Productivity by Simplifying Solution Search <a href="#" class="text-decoration-underline text-primary-hover fw-semibold">Got a project in mind?</a></p>
-      </div>
-   </div>
+          <div class="swiper-wrapper">
+         
+             <div class="swiper-slide">
+                <div class="card card-img-scale bg-body overflow-hidden">
+                   <div class="card-img-scale-wrapper">
+                      <img src="<?=base_url('assets/frontend/images/services/4by3/01.jpg') ?>" class="card-img-top img-scale" alt="service image">
+                   </div>
+                   <div class="card-body p-4">
+                      <h6><a href="<?=base_url('brand-strategy-and-activation') ?>">Brand Strategy & Activation</a></h6>
+                      <p class="mb-0">Developing strategic approaches for brand growth and engagement with the audience.</p>
+                   </div>
+                   <div class="card-footer border-top bg-body p-4">
+                      <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="<?=base_url('brand-strategy-and-activation') ?>">Explore this service<i class="bi bi-arrow-right"></i> </a>
+                   </div>
+                </div>
+             </div>
+
+             <div class="swiper-slide">
+                <div class="card card-img-scale bg-body overflow-hidden">
+                   <div class="card-img-scale-wrapper">
+                      <img src="<?=base_url('assets/frontend/images/services/4by3/02.jpg') ?>" class="card-img-top img-scale" alt="service image">
+                   </div>
+                   <div class="card-body p-4">
+                      <h6><a href="<?=base_url('branding-and-identity-design') ?>">Branding & Identity Design</a></h6>
+                      <p class="mb-0">Crafting unique brand identities and designs to resonate with target audiences.</p>
+                   </div>
+                   <div class="card-footer border-top bg-body p-4">
+                      <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="<?=base_url('branding-and-identity-design') ?>">Explore this service<i class="bi bi-arrow-right"></i> </a>
+                   </div>
+                </div>
+             </div>
+             
+             <div class="swiper-slide">
+                <div class="card card-img-scale bg-body overflow-hidden">               
+                   <div class="card-img-scale-wrapper">
+                      <img src="<?=base_url('assets/frontend/images/services/4by3/03.jpg') ?>" class="card-img-top img-scale" alt="service image">
+                   </div>               
+                   <div class="card-body p-4">
+                      <h6><a href="<?=base_url('graphic-design') ?>">Graphic Design</a></h6>
+                      <p class="mb-0">Creating visually engaging designs for a range of media and marketing materials.</p>
+                   </div>               
+                   <div class="card-footer border-top bg-body p-4">
+                      <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="<?=base_url('graphic-design') ?>">Explore this service<i class="bi bi-arrow-right"></i> </a>
+                   </div>
+                </div>
+             </div>
+             
+             <div class="swiper-slide">
+                <div class="card card-img-scale bg-body overflow-hidden">               
+                   <div class="card-img-scale-wrapper">
+                      <img src="<?=base_url('assets/frontend/images/services/4by3/04.jpg') ?>" class="card-img-top img-scale" alt="service image">
+                   </div>               
+                   <div class="card-body p-4">
+                      <h6><a href="<?=base_url('content-writing') ?>">Content Writing</a></h6>
+                      <p class="mb-0">Writing compelling and engaging content to enhance brand messaging and communication.</p>
+                   </div>               
+                   <div class="card-footer border-top bg-body p-4">
+                      <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="<?=base_url('content-writing') ?>">Explore this service<i class="bi bi-arrow-right"></i> </a>
+                   </div>
+                </div>
+             </div>
+             
+             <div class="swiper-slide">
+                <div class="card card-img-scale bg-body overflow-hidden">               
+                   <div class="card-img-scale-wrapper">
+                      <img src="<?=base_url('assets/frontend/images/services/4by3/05.jpg') ?>" class="card-img-top img-scale" alt="service image">
+                   </div>               
+                   <div class="card-body p-4">
+                      <h6><a href="<?=base_url('animation-and-motion-graphics') ?>">Animation & Motion Graphics</a></h6>
+                      <p class="mb-0">Designing animated visuals and motion graphics to bring ideas to life in creative formats.</p>
+                   </div>               
+                   <div class="card-footer border-top bg-body p-4">
+                      <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="<?=base_url('animation-and-motion-graphics') ?>">Explore this service<i class="bi bi-arrow-right"></i> </a>
+                   </div>
+                </div>
+             </div>
+
+             <div class="swiper-slide">
+                <div class="card card-img-scale bg-body overflow-hidden">               
+                   <div class="card-img-scale-wrapper">
+                      <img src="<?=base_url('assets/frontend/images/services/4by3/05.jpg') ?>" class="card-img-top img-scale" alt="service image">
+                   </div>               
+                   <div class="card-body p-4">
+                      <h6><a href="<?=base_url('photography-and-visual-production') ?>">Photography & Visual Production</a></h6>
+                      <p class="mb-0">Capturing high-quality photographs and producing visual content for diverse branding needs.</p>
+                   </div>               
+                   <div class="card-footer border-top bg-body p-4">
+                      <a class="icon-link icon-link-hover stretched-link p-0 m-0" href="<?=base_url('photography-and-visual-production') ?>">Explore this service<i class="bi bi-arrow-right"></i> </a>
+                   </div>
+                </div>
+             </div>
+          </div>
+       </div>
+       <!-- Service END -->
+    </div>
+
 </section>
 
 <section>
@@ -1717,3 +1771,13 @@ Left right feature END -->
 
 
 <?php $this->load->view('frontend/component/blog'); ?>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $(".card").click(function() {
+        var id = $(this).attr("id"); 
+        $("#appendHere").load("<?= base_url('main/loadSection/') ?>" + id);
+    });
+});
+</script>

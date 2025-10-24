@@ -8,6 +8,11 @@ class Main extends Front_Controller
 		$this->view('index');
 	}
 
+	public function loadSection($term)
+    {
+        $this->load->view('frontend/component/'.$term);
+    }
+
 	public function demo()
 	{
 		$this->view('two');
