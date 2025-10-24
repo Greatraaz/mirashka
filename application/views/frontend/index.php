@@ -208,14 +208,14 @@ Main Banner END -->
                   <div class="row mb-4">
                      <div class="col-sm-6 mb-4 mb-sm-0">
                         <div class="bg-dark text-white rounded text-center p-3">
-                           <span class="h2 text-white">10+</span>
+                           <span class="h2 text-white">15+</span>
                            <p class="mb-0">Years of experience</p>
                         </div>
                      </div>
                      <div class="col-sm-6">
                         <div class="bg-primary rounded text-center p-3">
-                           <span class="h2 text-white">1.2K</span>
-                           <p class="mb-0 text-white">Happy customers</p>
+                           <span class="h2 text-white">45+</span>
+                           <p class="mb-0 text-white">Happy Startups</p>
                         </div>
                      </div>
                   </div>
@@ -228,17 +228,20 @@ Main Banner END -->
          <!-- About image END -->
          <!-- About content START -->
          <div class="col-lg-5">
-            <span class="heading-color bg-light small rounded-3 px-3 py-2">🤝 Your gateway to digital success</span>
-            <h2 class="my-4">Defining the future of online experiences!</h2>
-            <p class="mb-4">Embrace a new era of digital success with Mizzle. Our team combines cutting-edge design with robust development to deliver websites that captivate and convert.</p>
+            <span class="heading-color bg-light small rounded-3 px-3 py-2">Every business needs good design</span>
+            <h3 class="my-4">Fifteen years building entrepreneurs through purposeful design</h3>
+            <p class="mb-4">At Mirashka, design is the operating system—spanning all six segments—to launch, grow, and secure ventures, empowering founders with tools, narrative, technology, and measurable results everywhere.</p>
             <!-- List -->
             <ul class="list-group list-group-borderless mb-4">
-               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Emphasis on ROI-driven solutions</li>
-               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Expert team with diverse skill</li>
-               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Proven track record of delivering results</li>
+               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Design-first thinking across every digital touchpoint.</li>
+               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Fifteen years partnering bold startups and emerging brands.</li>
+               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Six specialist segments working as one growth engine.</li>
+               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>From idea to traction: brand, build, market, secure.</li>
+               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Entrepreneurship amplified through playbooks, people, and platforms.</li>
+               <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Outcomes measured: revenue, reputation, resilience, repeatability.</li>
             </ul>
             <!-- Button -->
-            <a href="about-v1.html" class="btn btn-dark mb-0">Discover more</a>
+            <!-- <a href="about-us" class="btn btn-dark mb-0">Discover more</a> -->
          </div>
          <!-- About content END -->
       </div>
@@ -625,69 +628,69 @@ Main Banner END -->
                     <div class="tab-content mt-4" id="nav-tabContent">
 
                         <div class="tab-pane fade show active" id="nav-goal" role="tabpanel" aria-labelledby="nav-goal-tab" tabindex="0">
-                            <h5 class="mb-3">Charting the Future of Digital Innovation</h5>
-                            <p class="mb-2"> We envision a future where businesses of all sizes can harness the full potential of the digital world to achieve their dreams.</p>
+                            <h5 class="mb-3">Fifteen Years Designing Outcomes For Ambitious Indian Entrepreneurs</h5>
+                            <p class="mb-2">We began with a belief: every business deserves design. Since then, we’ve built brands, platforms, and playbooks that help founders launch faster, grow, and endure.</p>
                             <!-- List -->
                             <ul class="list-group list-group-borderless mb-3">
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Digital Pioneers</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Continuous Learning</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Inspiring Transformation</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Started small; now powering startups across categories.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Design-first methods turning ideas into measurable outcomes.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Entrepreneurial partners, not vendors, from day one.</li>
                             </ul>
                             <!-- Button -->
-                            <a class="icon-link icon-link-hover" href="about-v1.html">Know about more<i class="bi bi-arrow-right"></i> </a>
+                            <a class="icon-link icon-link-hover" href="<?=base_url('our-story');?>">Know about more<i class="bi bi-arrow-right"></i> </a>
                         </div>
 
                         <!-- Mission content -->
                         <div class="tab-pane fade" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab" tabindex="0">
-                            <h5 class="mb-3">Our Commitment to Your Success</h5>
-                            <p class="mb-2">At Mizzle, our mission is to empower businesses with digital tools, research and strategies.</p>
+                            <h5 class="mb-3">Make Design The Growth Engine For Every Business</h5>
+                            <p class="mb-2">We align brand, technology, and marketing into one system that compounds results—delivering clarity, speed, and accountability while empowering founders to build sustainable, resilient companies worldwide.</p>
                             <!-- List -->
                             <ul class="list-group list-group-borderless mb-3">
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Client-Centric Approach</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Experienced Team</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Measurable Results</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Unite strategy, build, marketing into measurable pipelines.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Prioritize outcomes, not vanity metrics or noise.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Empower teams with playbooks, tools, and training.</li>
                             </ul>
                             <!-- Button -->
-                            <a class="icon-link icon-link-hover" href="about-v2.html">Know about more<i class="bi bi-arrow-right"></i> </a>
+                            <a class="icon-link icon-link-hover" href="<?=base_url('mission-vision');?>">Know about more<i class="bi bi-arrow-right"></i> </a>
                         </div>
 
                         <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab" tabindex="0">
-                            <h5 class="mb-3">Our Commitment to Your Success</h5>
-                            <p class="mb-2">At Mizzle, our mission is to empower businesses with digital tools, research and strategies.</p>
+                            <h5 class="mb-3">Entrepreneurship Powered By Design, Data, And Discipline Everywhere</h5>
+                            <p class="mb-2">A world where founders access world-class branding, technology, and growth frameworks—affordable, ethical, and privacy-ready—so new ventures compete fairly and scale responsibly across markets and communities.</p>
                             <!-- List -->
                             <ul class="list-group list-group-borderless mb-3">
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Client-Centric Approach</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Experienced Team</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Measurable Results</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Democratize capability, not merely deliverables.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Build resilience alongside rapid growth.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Prove impact transparently, continuously, credibly.</li>
                             </ul>
                             <!-- Button -->
-                            <a class="icon-link icon-link-hover" href="about-v2.html">Know about more<i class="bi bi-arrow-right"></i> </a>
+                            <a class="icon-link icon-link-hover" href="<?=base_url('mission-vision');?>">Know about more<i class="bi bi-arrow-right"></i> </a>
                         </div>
 
                         <div class="tab-pane fade" id="nav-culture" role="tabpanel" aria-labelledby="nav-culture-tab" tabindex="0">
-                            <h5 class="mb-3">Our Commitment to Your Success</h5>
-                            <p class="mb-2">At Mizzle, our mission is to empower businesses with digital tools, research and strategies.</p>
+                            <h5 class="mb-3">Small Teams, Big Ownership, Relentless Curiosity, Kindness Always</h5>
+                            <p class="mb-2">We favor makers over meetings, prototypes over promises, and feedback over ego—working transparently, learning fast, and celebrating wins that our clients and users feel daily.</p>
                             <!-- List -->
                             <ul class="list-group list-group-borderless mb-3">
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Client-Centric Approach</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Experienced Team</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Measurable Results</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Default to action; document the learning.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Respect time; protect deep work.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Debate hard; commit together.</li>
                             </ul>
                             <!-- Button -->
-                            <a class="icon-link icon-link-hover" href="about-v2.html">Know about more<i class="bi bi-arrow-right"></i> </a>
+                            <a class="icon-link icon-link-hover" href="<?=base_url('culture-values');?>">Know about more<i class="bi bi-arrow-right"></i> </a>
                         </div>
 
                         <div class="tab-pane fade" id="nav-values" role="tabpanel" aria-labelledby="nav-values-tab" tabindex="0">
-                            <h5 class="mb-3">Our Commitment to Your Success</h5>
-                            <p class="mb-2">At Mizzle, our mission is to empower businesses with digital tools, research and strategies.</p>
+                            <h5 class="mb-3">Clarity, Craft, Integrity, Outcomes, Inclusivity, Long-Termism, Joy, Stewardship</h5>
+                            <p class="mb-2">We simplify the complex, build carefully, tell the truth, measure impact, welcome perspectives, plan beyond quarters, enjoy the craft, and leave systems stronger than found.</p>
                             <!-- List -->
                             <ul class="list-group list-group-borderless mb-3">
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Client-Centric Approach</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Experienced Team</li>
-                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Measurable Results</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Truth over theatre, always.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Accessibility and inclusion by default.</li>
+                                <li class="list-group-item heading-color d-flex pb-0"><i class="bi bi-patch-check-fill me-2"></i>Measure, learn, improve, repeat.</li>
                             </ul>
                             <!-- Button -->
-                            <a class="icon-link icon-link-hover" href="about-v2.html">Know about more<i class="bi bi-arrow-right"></i> </a>
+                            <a class="icon-link icon-link-hover" href="<?=base_url('culture-values');?>">Know about more<i class="bi bi-arrow-right"></i> </a>
                         </div>
 
                     </div>
