@@ -183,7 +183,7 @@
 									<!-- Feature card -->
 									<div class="card bg-transparent px-3">
 										<!-- Image -->
-										<img src="assets/images/blog/02.jpg" class="rounded mb-3" alt="feature-img">
+										<img src="<?= base_url()?>assets/frontend/images/blog/02.jpg" class="rounded mb-3" alt="feature-img">
 										<div class="card-body p-0">
 											<h6><a href="#">Featured title here</a></h6>
 											<p class="mb-2">Departure defective arranging rapturous did believe him all had supported.</p>

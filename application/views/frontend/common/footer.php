@@ -26,27 +26,27 @@
                <div class="swiper-wrapper align-items-center ">
                   <!-- Image -->
                   <div class="swiper-slide">
-                     <img src="<?= base_url('assets/frontend/images/client/01.svg"  class="grayscale" alt="client-img ') ?>">
+                     <img src="<?= base_url('assets/frontend/images/client/01.svg') ?>" class="grayscale" alt="client-img">
                   </div>
                   <!-- Image -->
                   <div class="swiper-slide">
-                     <img src="<?= base_url('assets/frontend/images/client/02.svg"  class="grayscale" alt="client-img ') ?>">
+                     <img src="<?= base_url('assets/frontend/images/client/02.svg') ?>" class="grayscale" alt="client-img">
                   </div>
                   <!-- Image -->
                   <div class="swiper-slide">
-                     <img src="<?= base_url('assets/frontend/images/client/03.svg"  class="grayscale" alt="client-img ') ?>">
+                     <img src="<?= base_url('assets/frontend/images/client/03.svg') ?>" class="grayscale" alt="client-img">
                   </div>
                   <!-- Image -->
                   <div class="swiper-slide">
-                     <img src="<?= base_url('assets/frontend/images/client/04.svg"  class="grayscale" alt="client-img ') ?>">
+                     <img src="<?= base_url('assets/frontend/images/client/04.svg') ?>" class="grayscale" alt="client-img">
                   </div>
                   <!-- Image -->
                   <div class="swiper-slide">
-                     <img src="<?= base_url('assets/frontend/images/client/05.svg"  class="grayscale" alt="client-img ') ?>">
+                     <img src="<?= base_url('assets/frontend/images/client/05.svg') ?>" class="grayscale" alt="client-img">
                   </div>
                   <!-- Image -->
                   <div class="swiper-slide">
-                     <img src="<?= base_url('assets/frontend/images/client/06.svg"  class="grayscale" alt="client-img ') ?>">
+                     <img src="<?= base_url('assets/frontend/images/client/06.svg') ?>" class="grayscale" alt="client-img">
                   </div>
                </div>
             </div>
@@ -174,7 +174,7 @@
          <!-- Copyright link -->
          <div class="text-body mt-3 mt-md-0 ">
             Copyrights ©2025. Built by
-            <a href="index.php" class="text-body text-primary-hover">MIRASHKA</a>.
+            <a href="#" class="text-body text-primary-hover">MIRASHKA</a>.
          </div>
       </div>
 
@@ -187,10 +187,11 @@
 <div class="back-top"></div>
 <!-- Bootstrap JS -->
 <script src="<?= base_url('assets/frontend/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') ?>"></script>
-<!--Vendors-->
+<script src="<?= base_url('assets/frontend/vendor/purecounterjs/dist/purecounter_vanilla.js') ?>"></script>
+<script src="<?= base_url('assets/frontend/vendor/isotope/isotope.pkgd.min.js') ?>"></script>
+<script src="<?= base_url('assets/frontend/vendor/imagesLoaded/imagesloaded.pkgd.min.js') ?>"></script>
 <script src="<?= base_url('assets/frontend/vendor/ityped/index.js') ?>"></script>
 <script src="<?= base_url('assets/frontend/vendor/swiper/swiper-bundle.min.js') ?>"></script>
-<!-- Theme Functions -->
 <script src="<?= base_url('assets/frontend/js/functions.js') ?>"></script>
 </body>
 

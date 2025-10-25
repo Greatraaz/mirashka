@@ -1,19 +1,19 @@
 <div class="container">
-   <!-- Title and content -->
-   <div class="row mb-4 mb-md-6">
-      <div class="col-md-6 col-lg-5">
-         <h2 class="mb-0 heading-color ">Evolve Services</h2>
-      </div>
-      <div class="col-md-6 col-lg-4 ms-auto heading-color">
-         <p>We are at the cutting edge of professional IT Services </p>
-         <div class="d-flex gap-3 position-relative mt-3">
-            <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-prev-team"><i class="bi bi-arrow-left"></i></a>
-            <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-next-team"><i class="bi bi-arrow-right"></i></a>
-         </div>
-      </div>
+   <div class="row mb-3 align-items-center">
+       <div class="col-md-3">
+          <h2 class="mb-0 heading-color">Evolve Services</h2>
+       </div>
+       <div class="col-md-7 ms-auto heading-color">
+          <p>We are at the cutting edge of professional IT Services </p>
+       </div>
+       <div class="col-md-2">
+          <div class="d-flex gap-3 position-relative justify-content-end">
+             <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-prev-team"><i class="bi bi-arrow-left"></i></a>
+             <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-next-team"><i class="bi bi-arrow-right"></i></a>
+          </div>
+       </div>
    </div>
-   <!-- Service start -->
-   <div class="swiper swiper-outside-end-n20 iskok">
+   <div class="swiper iskok">
       <div class="swiper-wrapper">
          
          <div class="swiper-slide">
@@ -37,7 +37,7 @@
                   <img src="<?=base_url('assets/frontend/images/services/4by3/02.jpg') ?>" class="card-img-top img-scale" alt="service image">
                </div>
                <div class="card-body p-4">
-                  <h6><a href="<?=base_url('dedicated-resource-hiring') ?>">Dedicated Resource Hiring (Dev, Design, SEO, etc.)</a></h6>
+                  <h6><a href="<?=base_url('dedicated-resource-hiring') ?>">Dedicated Resource Hiring</a></h6>
                   <p class="mb-0">Hiring specialized professionals for your business needs, whether in development, design, or SEO.</p>
                </div>
                <div class="card-footer border-top bg-body p-4">
@@ -82,7 +82,7 @@
                   <img src="<?=base_url('assets/frontend/images/services/4by3/05.jpg') ?>" class="card-img-top img-scale" alt="service image">
                </div>               
                <div class="card-body p-4">
-                  <h6><a href="<?=base_url('technology-consultation-and-architecture-design') ?>">Technology Consultation & Architecture Design</a></h6>
+                  <h6><a href="<?=base_url('technology-consultation-and-architecture-design') ?>">Technology Consultation</a></h6>
                   <p class="mb-0">Providing expert guidance in selecting and designing technology solutions to meet your business goals.</p>
                </div>               
                <div class="card-footer border-top bg-body p-4">
@@ -98,7 +98,7 @@
 <script>
 $(document).ready(function() {
   new Swiper(".iskok", {
-    spaceBetween: 50,
+    spaceBetween: 10,
     loop: false,
     navigation: {
       nextEl: ".swiper-button-next-team",

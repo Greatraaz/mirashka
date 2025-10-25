@@ -1,19 +1,19 @@
 <div class="container">
-   <!-- Title and content -->
-   <div class="row mb-4 mb-md-6">
-      <div class="col-md-6 col-lg-5">
-         <h2 class="mb-0 heading-color ">Establish Services</h2>
-      </div>
-      <div class="col-md-6 col-lg-4 ms-auto heading-color">
-         <p>We are at the cutting edge of professional IT Services </p>
-         <div class="d-flex gap-3 position-relative mt-3">
-            <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-prev-team"><i class="bi bi-arrow-left"></i></a>
-            <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-next-team"><i class="bi bi-arrow-right"></i></a>
-         </div>
-      </div>
+   <div class="row mb-3 align-items-center">
+       <div class="col-md-3">
+          <h2 class="mb-0 heading-color">Establish Services</h2>
+       </div>
+       <div class="col-md-7 ms-auto heading-color">
+          <p>We are at the cutting edge of professional IT Services </p>
+       </div>
+       <div class="col-md-2">
+          <div class="d-flex gap-3 position-relative justify-content-end">
+             <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-prev-team"><i class="bi bi-arrow-left"></i></a>
+             <a href="javascript:void(0);" class="btn btn-white border btn-icon rounded-circle mb-0 swiper-button-next-team"><i class="bi bi-arrow-right"></i></a>
+          </div>
+       </div>
    </div>
-   <!-- Service start -->
-   <div class="swiper swiper-outside-end-n20 iskok">
+   <div class="swiper iskok">
       <div class="swiper-wrapper">
          
          <div class="swiper-slide">
@@ -67,7 +67,7 @@
                   <img src="<?=base_url('assets/frontend/images/services/4by3/04.jpg') ?>" class="card-img-top img-scale" alt="service image">
                </div>               
                <div class="card-body p-4">
-                  <h6><a href="<?=base_url('mobileapp-development') ?>">Mobile App Development (Android & iOS)</a></h6>
+                  <h6><a href="<?=base_url('mobileapp-development') ?>">(Android & iOS) Mobile App Development</a></h6>
                   <p class="mb-0">Building native mobile apps for both Android and iOS platforms to enhance customer engagement.</p>
                </div>               
                <div class="card-footer border-top bg-body p-4">
@@ -97,7 +97,7 @@
                   <img src="<?=base_url('assets/frontend/images/services/4by3/05.jpg') ?>" class="card-img-top img-scale" alt="service image">
                </div>               
                <div class="card-body p-4">
-                  <h6><a href="<?=base_url('technology-stack-expertise') ?>">Technology Stack Expertise (PHP, .NET, Angular, React JS, Node)</a></h6>
+                  <h6><a href="<?=base_url('technology-stack-expertise') ?>">Technology Stack Expertise</a></h6>
                   <p class="mb-0">Expertise in a wide range of technologies to develop robust and scalable applications.</p>
                </div>               
                <div class="card-footer border-top bg-body p-4">
@@ -128,7 +128,7 @@
 <script>
 $(document).ready(function() {
   new Swiper(".iskok", {
-    spaceBetween: 50,
+    spaceBetween: 10,
     loop: false,
     navigation: {
       nextEl: ".swiper-button-next-team",
