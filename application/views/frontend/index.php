@@ -505,7 +505,7 @@ h2.text-white.display-7.my-2 {
    </div>
 </div>
 
-<section class="pt-0 pb-0">
+<section class="pb-0">
    <div class="container">
       <div class="row g-4 align-items-xl-center">
          <!-- About image START -->
