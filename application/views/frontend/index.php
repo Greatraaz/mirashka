@@ -115,42 +115,48 @@ div#customCarousel {
     height: auto;
     width: auto;
 }
+.sliderh a {
+    margin: auto;
+    color: #ffffff;
+    margin-top: 0;
+}
+h2.text-white.display-7.my-2 {
+    line-height: 1;
+}
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    transform: translateY(-90px);
+}
 </style>
-<section class="pt-0">
-    <!-- Slider START -->
+<section class="pt-0 pb-0">
     <div class="swiper overflow-hidden sliderh" data-swiper-options='{
-        "effect": "fade",
-        "speed": 1000,
-        "autoplay": {
-            "delay": 3000, 
-            "disableOnInteraction": false
-        },
-        "pagination": {
-            "el": ".swiper-pagination",
-            "clickable": true
-        },
-        "navigation": {
-            "nextEl": ".swiper-button-next",
-            "prevEl": ".swiper-button-prev"
-        }
-    }'>
+            "effect": "fade",
+            "speed": 1000,
+            "autoplay": {
+                "delay": 3000, 
+                "disableOnInteraction": false
+            },
+            "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true
+            },
+            "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+            }
+        }'>
 
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/establish.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <!-- Bg overlay -->
                     <div class="bg-overlay bg-linear-overlay"></div>
-
-                    <!-- Card image overlay -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-md-10 text-center mt-auto">
-                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Light the Brand Fuse</span>
-                                    <!-- Title -->
-                                    <h1 class="text-white display-7 my-4">From <span class="text-primary">whisper </span> to icon, your story catches fire.</h1>
-                                    <p class="text-white mb-5">Strategy, voice, and visuals snap into place, shaping symbols customers remember, repeat, and recommend across touchpoints, markets, and moments worldwide.</p>
-                                    <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
+                                    <span class="fbdvs">Ignite Your Brand Identity</span>
+                                    <h2 class="text-white display-7 my-2">Turn raw ideas into <span class="text-primary">unforgettable, </span> coherent brand systems</h2>
+                                    <p class="text-white mb-5">Strategy, story, and signature visuals aligned to launch brands that resonate, differentiate, and scale across platforms, markets, and moments worldwide.</p>
+                                    <a href="<?=base_url('ignite')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -160,18 +166,16 @@ div#customCarousel {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/ignite.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <!-- Bg overlay -->
                     <div class="bg-overlay bg-linear-overlay"></div>
 
-                    <!-- Content -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 mt-auto">
-                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Build Your Digital Bedrock</span>
-                                    <h2 class="text-white display-7 mb-4 my-4">Beautiful interfaces atop <span class="text-primary">bulletproof </span>, scalable engineering that lasts.</h2>
-                                    <p class="text-white mb-5">Web, commerce, and mobile stitched to secure clouds, clean code, and APIs that evolve gracefully without debt, downtime, or drama.</p>
-                                    <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center mt-auto">
+                                <span class="fbdvs">Establish Web, App, Software</span>
+                                    <h2 class="text-white display-7 my-2">Build resilient platforms engineered for growth and reliability</h2>
+                                    <p class="text-white mb-5">From UX to cloud backends, we deliver secure code, clean interfaces, and integrations that perform, scale smoothly, and reduce debt.</p>
+                                    <a href="<?=base_url('establish')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -181,19 +185,15 @@ div#customCarousel {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/amplify.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <!-- Bg overlay -->
                     <div class="bg-overlay bg-linear-overlay"></div>
-
-                    <!-- Card image overlay -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-md-10 text-center mt-auto">
-                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Make The Market Listen</span>
-                                    <!-- Title -->
-                                    <h1 class="text-white display-7 my-4">Turn <span class="text-primary">attention </span> into demand, and demand into momentum</h1>
-                                    <p class="text-white mb-5">Search, social, PR, reviews, and maps orchestrated to compound trust, spark action, and stretch every rupee further than yesterday consistently.</p>
-                                    <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
+                                    <span class="fbdvs">Amplify Marketing and PR</span>
+                                    <h2 class="text-white display-7 my-2">Turn attention into <span class="text-primary">measurable demand </span> across channels today</h2>
+                                    <p class="text-white mb-5">SEO, social, PR, reviews, and GMB combine to grow reach, strengthen trust, and convert intent into revenue with efficiency sustainably.</p>
+                                    <a href="<?=base_url('amplify')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -203,19 +203,16 @@ div#customCarousel {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/evolve.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <!-- Bg overlay -->
                     <div class="bg-overlay bg-linear-overlay"></div>
 
-                    <!-- Content -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 mt-auto">
-                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Scale Without The Overheads</span>
-                                    <!-- Title -->
-                                    <h2 class="text-white display-7 mb-4 my-4"><span class="text-primary">Plug in experts</span>, processes, and automation on demand.</h2>
-                                    <p class="text-white mb-5">Dedicated talent, documented playbooks, and quiet bots simplifying delivery, reducing cost, and raising quality—week after week, sprint after sprint relentlessly.</p>
-                                    <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center mt-auto">
+                                <span class="fbdvs">Evolve Operations with Outsourcing</span>
+                                    <h2 class="text-white display-7 my-2">Extend your team with <span class="text-primary">specialized, on-demand talent</span> that delivers</h2>
+                                    <p class="text-white mb-5">Designers, developers, and marketers on tap; process automation, governance, and playbooks that cut costs while accelerating consistent, quality delivery cycles.</p>
+                                    <a href="<?=base_url('evolve')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -225,19 +222,16 @@ div#customCarousel {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/secure.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <!-- Bg overlay -->
                     <div class="bg-overlay bg-linear-overlay"></div>
 
-                    <!-- Card image overlay -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-md-10 text-center mt-auto">
-                                    <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2">Defend What Matters Most</span>
-                                    <!-- Title -->
-                                    <h1 class="text-white display-7 my-4"><span class="text-primary">Close gaps fast, </span> protect data, preserve reputation everywhere.</h1>
-                                    <p class="text-white mb-5">VAPT, cybersecurity operations, and ORM war-rooms that watch, warn, and fix before headlines form—measurable resilience, auditable controls, calm teams daily.</p>
-                                    <a class="btn btn-lg btn-white icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
+                                    <span class="fbdvs">Secure Brand, Data, Narrative</span>
+                                    <h2 class="text-white display-7 my-2">Protect systems and <span class="text-primary">reputation with proactive defense </span>and response</h2>
+                                    <p class="text-white mb-5">VAPT, cybersecurity, and crisis playbooks close gaps fast, harden posture, and restore trust with disciplined monitoring, alerts, and audits continuously.</p>
+                                    <a href="<?=base_url('secure')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -247,19 +241,16 @@ div#customCarousel {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/accelerate.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <!-- Bg overlay -->
                     <div class="bg-overlay bg-linear-overlay"></div>
 
-                    <!-- Content -->
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row">
-                                <div class="col-md-10 mt-auto">
-                                <span class="bg-white bg-opacity-10 text-white small rounded-3 px-3 py-2 ">Squeeze More From Spend</span>
-                                    <!-- Title -->
-                                    <h2 class="text-white display-7 mb-4 my-4">Experiment, automate, and scale <span class="text-primary">profitable growth </span> intelligently today</h2>
-                                    <p class="text-white mb-5">CRO, funnels, hyperlocal plays, and living dashboards that reveal truth, reward winners, and redirect budget toward incremental, compounding revenue faster.</p>
-                                    <a class="btn btn-lg btn-primary icon-link icon-link-hover mb-0" href="<?=base_url('contact-us');?>">Contact Us Now<i class="bi bi-arrow-right"></i> </a>
+                            <div class="row justify-content-center">
+                                <div class="col-md-10 text-center mt-auto">
+                                <span class="fbdvs">Accelerate Performance and ROI</span>
+                                    <h2 class="text-white display-7 2">Scale revenue with experimentation, automation, and smarter analytics</h2>
+                                    <p class="text-white mb-5">CRO, funnels, hyperlocal campaigns, and dashboards optimize journeys, maximize LTV, and concentrate spend on channels proving demonstrable, incremental growth reliably.</p>
+                                    <a href="<?=base_url('accelerate')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -267,11 +258,7 @@ div#customCarousel {
                 </div>
             </div>
         </div>    
-
-        <!-- Slider Pagination -->
         <div class="swiper-pagination swiper-pagination-line position-absolute bottom-0 mb-3 "></div>
-
-        <!-- Left and Right Navigation -->
         <div class="swiper-button-next position-absolute top-50 end-0 translate-middle-y z-index-3 d-none d-sm-block">
             <div class="nav-button-circle">
                 <i class="fa fa-arrow-right"></i>
@@ -282,14 +269,242 @@ div#customCarousel {
                 <i class="fa fa-arrow-left"></i>
             </div>
         </div>
-    </div>    
-    <!-- Slider END -->
+    </div>        
 </section>
-<!-- =======================
-Main Banner END -->
 
-<!-- =======================
-   About START -->
+
+<style type="text/css">
+.card-body-custom {
+ display: flex;
+ align-items: center;
+ background-color: #f8f9fa;
+}
+
+.card-image-container {
+    flex: 0 0 40%;
+    max-width: 40%;
+    
+}
+.card-text-container {
+    flex: 1;
+    padding: 1rem 2rem;
+
+}
+.card-img-top {
+    width: 100%;
+    height: 357px;
+    object-fit: cover;
+    border-radius: 1rem 0 0;
+}
+
+.tabs-container {
+ margin-top: -3rem !important;
+ position: relative;
+ background: #f8f9fa;
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.containerpawan {
+    max-width: 100%;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 34px 44px 0 rgba(29, 20, 99, .2);
+    transition: box-shadow 0.3s ease-in-out;
+    margin-top: -80px !important;
+    z-index: 1;
+}
+
+.custom-tabs {
+ display: flex;
+ justify-content: space-around;
+ border-bottom: none;
+ padding: 0;
+}
+
+.custom-tabs .nav-item {
+ flex: 1;
+    padding-top: 20px;
+}
+
+.custom-tabs .nav-link {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    color: #706c6c;
+    border: none;
+    margin: 0;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.custom-tabs .nav-link.active {
+ background-color: #f8f9fa;
+ color: #025d4c;
+ text-decoration: underline #e1a300;
+ text-decoration-thickness: 2px;
+ text-underline-offset: 2px;
+}
+
+.custom-tabs .nav-link.active::before {
+ content: '';
+ display: inline-block;
+ width: 8px;
+ height: 8px;
+ background-color: #e59b0a;
+ border-radius: 50%;
+ margin-right: 8px;
+ vertical-align: middle;
+}
+
+.custom-tabs .nav-link:hover {
+ color: #000000;
+}   
+.fbdvs{
+    background: linear-gradient(to right, #025d4c, #04a57d);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 3px 25px;
+    border-radius: 32px;
+    width: fit-content;
+}
+.custom-button {
+    border: 2px solid;
+    padding: 10px 25px;
+    border-radius: 49px;
+    color: #000;
+    font-weight: 700;
+    margin-top: 15px;
+    display: block;
+    width: fit-content;
+}
+.containerpawan small{
+    display: block;
+    font-size: 10px !important;
+}
+</style>
+<div class="containerpawan tabs-container">
+   <ul class="nav nav-tabs custom-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+         <a class="nav-link active" id="ignite-tab" data-bs-toggle="tab" href="#ignite" role="tab" aria-controls="ignite" aria-selected="true">Ignite <small>Brand Identity & Activation</small></a>
+      </li>
+      <li class="nav-item" role="presentation">
+         <a class="nav-link" id="establish-tab" data-bs-toggle="tab" href="#establish" role="tab" aria-controls="establish" aria-selected="false">Establish <small>Web, App & Software</small></a>
+      </li>
+      <li class="nav-item" role="presentation">
+         <a class="nav-link" id="amplify-tab" data-bs-toggle="tab" href="#amplify" role="tab" aria-controls="amplify" aria-selected="false">Amplify <small>Digital Marketing & PR</small></a>
+      </li>
+      <li class="nav-item" role="presentation">
+         <a class="nav-link" id="evolve-tab" data-bs-toggle="tab" href="#evolve" role="tab" aria-controls="evolve" aria-selected="false">Evolve <small>Outsourcing & Digital Operations</small></a>
+      </li>
+      <li class="nav-item" role="presentation">
+         <a class="nav-link" id="secure-tab" data-bs-toggle="tab" href="#secure" role="tab" aria-controls="secure" aria-selected="false">Secure <small>Security & ORM</small></a>
+      </li>
+      <li class="nav-item" role="presentation">
+         <a class="nav-link" id="accelerate-tab" data-bs-toggle="tab" href="#accelerate" role="tab" aria-controls="accelerate" aria-selected="false">Accelerate <small>Performance & ROI Marketing</small></a>
+      </li>
+   </ul>
+   <div class="tab-content mt-4 mb-50" id="myTabContent">
+      <div class="tab-pane fade show active" id="ignite" role="tabpanel" aria-labelledby="ignite-tab">
+         <div class="card cs">
+            <div class="card-body-custom">
+               <div class="card-text-container">
+                  <h6 class="fbdvs">Ignite — Brand Identity & Activation</h6>  
+                  <h5 class="card-title custom-heading">Light the Brand Fuse - From whisper to icon, your story catches fire.</h5>
+                  <p class="card-text">Strategy, voice, and visuals snap into place, shaping symbols customers remember, repeat, and recommend across touchpoints, markets, and moments worldwide.</p>
+                  <p>IGNITE is Mirashka’s brand-foundation service: we define your positioning and narrative, craft logo and design system, set voice and messaging, and prepare assets—ensuring you resonate, stand apart, and remain consistent across channels, markets, and moments.</p>
+                  <a href="<?=base_url('ignite')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a>
+               </div>
+               <div class="card-image-container">
+                  <img src="https://s7d4.scene7.com/is/content/hitachivantarastage/homepage-hero-cloud-gif-rectangle" class="card-img-top" alt="Card Image 1">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="establish" role="tabpanel" aria-labelledby="establish-tab">
+         <div class="card cs">
+            <div class="card-body-custom">
+               <div class="card-text-container">
+                  <h6 class="fbdvs">Establish — Web, App & Software</h6>
+                  <h5 class="card-title custom-heading">Build Your Digital Bedrock-Beautiful interfaces atop bulletproof, scalable engineering that lasts.</h5>
+                  <p class="card-text">Web, commerce, and mobile stitched to secure clouds, clean code, and APIs that evolve gracefully without debt, downtime, or drama.</p>
+                  <p>ESTABLISH is Mirashka’s build segment: from UX flows to cloud backends, we ship secure code, clean interfaces, and reliable integrations that perform at scale, harden uptime, simplify maintenance, and actively reduce technical debt.</p>
+                  <a href="<?=base_url('establish')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+               </div>
+               <div class="card-image-container">
+                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/panel2-tab2-hitachi-iq-rectangle:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="amplify" role="tabpanel" aria-labelledby="amplify-tab">
+         <div class="card cs">
+            <div class="card-body-custom">
+               <div class="card-text-container">
+                  <h6 class="fbdvs">Amplify — Digital Marketing & PR</h6>
+                  <h5 class="card-title custom-heading">Make The Market Listen - Turn attention into demand, and demand into momentum.</h5>
+                  <p class="card-text">Search, social, PR, reviews, and maps orchestrated to compound trust, spark action, and stretch every rupee further than yesterday consistently.</p>
+                  <p>AMPLIFY is Mirashka’s demand-generation segment: SEO, social, PR, reviews, and GMB operate as one system to expand reach, build authority, and convert intent into revenue—efficiently, measurably, and sustainably across markets.</p>
+                  <a href="<?=base_url('amplify')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+               </div>
+               <div class="card-image-container">
+                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/panel2-tab1-hitachi-iq-rectangle:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="evolve" role="tabpanel" aria-labelledby="evolve-tab">
+         <div class="card cs">
+            <div class="card-body-custom">
+               <div class="card-text-container">
+                  <h6 class="fbdvs">Evolve — Outsourcing & Digital Operations</h6>
+                  <h5 class="card-title custom-heading">Scale Without The Overheads- Plug in experts, processes, and automation on demand.</h5>
+                  <p class="card-text">Dedicated talent, documented playbooks, and quiet bots simplifying delivery, reducing cost, and raising quality—week after week, sprint after sprint relentlessly.</p>
+                  <p>EVOLVE is Mirashka’s operations & outsourcing segment: on-demand designers, developers, and marketers powered by automation, governance, and playbooks—cutting costs, lifting velocity, and delivering consistent, high-quality output with clear SLAs and continuous improvement.</p>
+                  <a href="<?=base_url('evolve')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+               </div>
+               <div class="card-image-container">
+                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/rwth-aachen-university-square:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="secure" role="tabpanel" aria-labelledby="secure-tab">
+         <div class="card cs">
+            <div class="card-body-custom">
+               <div class="card-text-container">
+                  <h6 class="fbdvs">Secure — Security & ORM</h6>
+                  <h5 class="card-title custom-heading">Defend What Matters Most- Close gaps fast, protect data, preserve reputation everywhere.</h5>
+                  <p class="card-text">VAPT, cybersecurity operations, and ORM war-rooms that watch, warn, and fix before headlines form—measurable resilience, auditable controls, calm teams daily.</p>
+                  <p>SECURE is Mirashka’s protection & reputation segment: VAPT, cybersecurity controls, IAM hardening, backups, and real-time monitoring—plus ORM listening and crisis playbooks—to reduce risk, protect data, and preserve brand trust with auditable, rapid response.</p>
+                  <a href="<?=base_url('secure')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+               </div>
+               <div class="card-image-container">
+                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/rwth-aachen-university-square:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="tab-pane fade" id="accelerate" role="tabpanel" aria-labelledby="accelerate-tab">
+         <div class="card cs">
+            <div class="card-body-custom">
+               <div class="card-text-container">
+                  <h6 class="fbdvs">Accelerate — Performance & ROI Marketing</h6>
+                  <h5 class="card-title custom-heading">Squeeze More From Spend- Experiment, automate, and scale profitable growth intelligently today.</h5>
+                  <p class="card-text">CRO, funnels, hyperlocal plays, and living dashboards that reveal truth, reward winners, and redirect budget toward incremental, compounding revenue faster.</p>
+                  <p>ACCELERATE is Mirashka’s performance & ROI segment: CRO, full-funnel experiments, hyperlocal campaigns, and live dashboards that optimize journeys, lift LTV, and focus spend on channels proving clear, incremental growth—repeatably, profitably, and at the pace your market demands.</p>
+                  <a href="<?=base_url('accelerate')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+               </div>
+               <div class="card-image-container">
+                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/rwth-aachen-university-square:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</div>
+
 <section class="pt-0 pb-0">
    <div class="container">
       <div class="row g-4 align-items-xl-center">
