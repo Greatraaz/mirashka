@@ -1,10 +1,10 @@
 <div class="container">
    <div class="row mb-3 align-items-center">
        <div class="col-md-3">
-          <h2 class="mb-0 heading-color">Accelerate Services</h2>
+          <h3 class="mb-0 heading-color">Accelerate Services</h3>
        </div>
        <div class="col-md-7 ms-auto heading-color">
-          <p>We are at the cutting edge of professional IT Services </p>
+          <p>CRO, funnels, hyperlocal plays, and living dashboards that reveal truth, reward winners, and redirect budget toward incremental, compounding revenue faster.</p>
        </div>
        <div class="col-md-2">
           <div class="d-flex gap-3 position-relative justify-content-end">

@@ -1,10 +1,10 @@
 <div class="container">
    <div class="row mb-3 align-items-center">
        <div class="col-md-3">
-          <h2 class="mb-0 heading-color">Evolve Services</h2>
+          <h3 class="mb-0 heading-color">Evolve Services</h3>
        </div>
        <div class="col-md-7 ms-auto heading-color">
-          <p>We are at the cutting edge of professional IT Services </p>
+          <p>Dedicated talent, documented playbooks, and quiet bots simplifying delivery, reducing cost, and raising quality—week after week, sprint after sprint relentlessly.</p>
        </div>
        <div class="col-md-2">
           <div class="d-flex gap-3 position-relative justify-content-end">

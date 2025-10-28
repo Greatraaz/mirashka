@@ -1,10 +1,10 @@
 <div class="container">
    <div class="row mb-3 align-items-center">
        <div class="col-md-3">
-          <h2 class="mb-0 heading-color">Ignite Services</h2>
+          <h3 class="mb-0 heading-color">Ignite Services</h3>
        </div>
        <div class="col-md-7 ms-auto heading-color">
-          <p>We are at the cutting edge of professional IT Services </p>
+          <p>Strategy, voice, and visuals snap into place, shaping symbols customers remember, repeat, and recommend across touchpoints, markets, and moments worldwide.</p>
        </div>
        <div class="col-md-2">
           <div class="d-flex gap-3 position-relative justify-content-end">

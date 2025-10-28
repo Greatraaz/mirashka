@@ -11,7 +11,7 @@
 
 .slider-container {
     width: 82%;
-    margin: 20px auto 0;
+    margin: 0 auto 0;
     border-radius: 20px;
     overflow: hidden;
     position: relative;
@@ -35,14 +35,14 @@
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 15px;
-    max-width: 300px;
+    max-width: 400px;
     text-align: left;
 }
 
 .carousel-caption img {
     height: auto;
-    width: 100px;
-    margin-bottom: 15px;
+    width: 160px;
+    object-fit: contain;
 }
 
 .carousel-caption p {
@@ -385,6 +385,10 @@ h2.text-white.display-7.my-2 {
 }
 h5.card-title.custom-heading {
     margin: 22px 0;
+    text-align: justify;    
+}
+.card.cs p {
+    text-align: justify;
 }
 </style>
 <div class="containerpawan tabs-container">
@@ -415,7 +419,6 @@ h5.card-title.custom-heading {
                <div class="card-text-container">
                   <h6 class="fbdvs">Ignite — Brand Identity & Activation</h6>  
                   <h5 class="card-title custom-heading">Light the Brand Fuse - From whisper to icon, your story catches fire.</h5>
-                  <!-- <p class="card-text">Strategy, voice, and visuals snap into place, shaping symbols customers remember, repeat, and recommend across touchpoints, markets, and moments worldwide.</p> -->
                   <p>IGNITE is Mirashka’s brand-foundation service: we define your positioning and narrative, craft logo and design system, set voice and messaging, and prepare assets—ensuring you resonate, stand apart, and remain consistent across channels, markets, and moments.</p>
                   <a href="<?=base_url('ignite')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a>
                </div>
@@ -431,7 +434,6 @@ h5.card-title.custom-heading {
                <div class="card-text-container">
                   <h6 class="fbdvs">Establish — Web, App & Software</h6>
                   <h5 class="card-title custom-heading">Build Your Digital Bedrock-Beautiful interfaces atop bulletproof, scalable engineering that lasts.</h5>
-                  <!-- <p class="card-text">Web, commerce, and mobile stitched to secure clouds, clean code, and APIs that evolve gracefully without debt, downtime, or drama.</p> -->
                   <p>ESTABLISH is Mirashka’s build segment: from UX flows to cloud backends, we ship secure code, clean interfaces, and reliable integrations that perform at scale, harden uptime, simplify maintenance, and actively reduce technical debt.</p>
                   <a href="<?=base_url('establish')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
@@ -447,7 +449,6 @@ h5.card-title.custom-heading {
                <div class="card-text-container">
                   <h6 class="fbdvs">Amplify — Digital Marketing & PR</h6>
                   <h5 class="card-title custom-heading">Make The Market Listen - Turn attention into demand, and demand into momentum.</h5>
-                 <!--  <p class="card-text">Search, social, PR, reviews, and maps orchestrated to compound trust, spark action, and stretch every rupee further than yesterday consistently.</p> -->
                   <p>AMPLIFY is Mirashka’s demand-generation segment: SEO, social, PR, reviews, and GMB operate as one system to expand reach, build authority, and convert intent into revenue—efficiently, measurably, and sustainably across markets.</p>
                   <a href="<?=base_url('amplify')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
@@ -463,7 +464,6 @@ h5.card-title.custom-heading {
                <div class="card-text-container">
                   <h6 class="fbdvs">Evolve — Outsourcing & Digital Operations</h6>
                   <h5 class="card-title custom-heading">Scale Without The Overheads- Plug in experts, processes, and automation on demand.</h5>
-                  <!-- <p class="card-text">Dedicated talent, documented playbooks, and quiet bots simplifying delivery, reducing cost, and raising quality—week after week, sprint after sprint relentlessly.</p> -->
                   <p>EVOLVE is Mirashka’s operations & outsourcing segment: on-demand designers, developers, and marketers powered by automation, governance, and playbooks—cutting costs, lifting velocity, and delivering consistent, high-quality output with clear SLAs and continuous improvement.</p>
                   <a href="<?=base_url('evolve')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
@@ -479,7 +479,6 @@ h5.card-title.custom-heading {
                <div class="card-text-container">
                   <h6 class="fbdvs">Secure — Security & ORM</h6>
                   <h5 class="card-title custom-heading">Defend What Matters Most- Close gaps fast, protect data, preserve reputation everywhere.</h5>
-                  <!-- <p class="card-text">VAPT, cybersecurity operations, and ORM war-rooms that watch, warn, and fix before headlines form—measurable resilience, auditable controls, calm teams daily.</p> -->
                   <p>SECURE is Mirashka’s protection & reputation segment: VAPT, cybersecurity controls, IAM hardening, backups, and real-time monitoring—plus ORM listening and crisis playbooks—to reduce risk, protect data, and preserve brand trust with auditable, rapid response.</p>
                   <a href="<?=base_url('secure')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
@@ -495,7 +494,6 @@ h5.card-title.custom-heading {
                <div class="card-text-container">
                   <h6 class="fbdvs">Accelerate — Performance & ROI Marketing</h6>
                   <h5 class="card-title custom-heading">Squeeze More From Spend- Experiment, automate, and scale profitable growth intelligently today.</h5>
-                  <!-- <p class="card-text">CRO, funnels, hyperlocal plays, and living dashboards that reveal truth, reward winners, and redirect budget toward incremental, compounding revenue faster.</p> -->
                   <p>ACCELERATE is Mirashka’s performance & ROI segment: CRO, full-funnel experiments, hyperlocal campaigns, and live dashboards that optimize journeys, lift LTV, and focus spend on channels proving clear, incremental growth—repeatably, profitably, and at the pace your market demands.</p>
                   <a href="<?=base_url('accelerate')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
@@ -585,15 +583,11 @@ h5.card-title.custom-heading {
     <div class="container">
         <hr class="border-primary opacity-2 mt-sm-7 my-5"> <!-- Divider -->
 
-        <!-- Client and skill sets START -->
         <div class="row">
-            <!-- Client -->
-            <div class="col-md-6 col-xl-7 mb-5 mb-md-0">
-                <p class="mb-0"><i class="bi bi-shield-check"></i> | We believe in going above and beyond to exceed. We reached <b class="text-primary fs-6">19k</b></p>
+            <div class="col-md-6 col-xl-9 mb-5 mb-md-0">
+                <p class="mb-0">Built for brave founders, engineered for scale, secure by default: PHP, .NET, Node, React, Angular, Android, iOS, AWS, Azure, GCP, headless commerce, DevOps, VAPT, observability, automation, APIs, security.</p>
                 
-                <!-- Slider START -->
-                <div class="swiper mt-2 mt-md-4"
-                data-swiper-options='{
+                <div class="swiper mt-2" data-swiper-options='{
                         "loop": true, 
                         "slidesPerView": 2, 
                         "spaceBetween": 30, 
@@ -604,8 +598,8 @@ h5.card-title.custom-heading {
                         "breakpoints": { 
                             "576": {"slidesPerView": 2}, 
                             "768": {"slidesPerView": 3}, 
-                            "992": {"slidesPerView": 4}, 
-                            "1200": {"slidesPerView": 5}
+                            "992": {"slidesPerView": 5}, 
+                            "1200": {"slidesPerView": 7}
                         }}'>
 
                         <!-- Slider items -->
@@ -634,6 +628,25 @@ h5.card-title.custom-heading {
                             <div class="swiper-slide">
                                 <img src="<?= base_url('assets/frontend/images/img/google-cloud.svg') ?>" class="px-3" alt="client-img">
                             </div>
+                        </div>
+                </div>
+                <div class="swiper" data-swiper-options='{
+                        "loop": true, 
+                        "slidesPerView": 2, 
+                        "spaceBetween": 30, 
+                        "autoplay":{
+                            "delay": 2000, 
+                            "disableOnInteraction": false
+                        },
+                        "breakpoints": { 
+                            "576": {"slidesPerView": 2}, 
+                            "768": {"slidesPerView": 3}, 
+                            "992": {"slidesPerView": 5}, 
+                            "1200": {"slidesPerView": 7}
+                        }}'>
+
+                        <!-- Slider items -->
+                        <div class="swiper-wrapper align-items-center">
                             <div class="swiper-slide">
                                 <img src="<?= base_url('assets/frontend/images/img/security-and-vapt.svg') ?>" class="px-3" alt="client-img">
                             </div>
@@ -662,14 +675,10 @@ h5.card-title.custom-heading {
                 </div>
             </div>
     
-            <!-- Skill sets -->
-            <div class="col-md-6 col-lg-5 col-xl-3 ms-auto text-md-end">
-                <!-- Title -->
+            <div class="col-md-6 col-xl-3 ms-auto text-md-end">
                 <p class="mb-0 me-2">Trusted by Customers <span class="badge bg-dark">Active</span></p>
 
-                <!-- Counter -->
                 <div class="d-flex justify-content-md-end mt-2 mt-md-4">
-                    <!-- Counter item -->
                     <div>
                         <div class="d-flex justify-content-md-end">
                             <h4 class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="15"   data-purecounter-delay="300">500</h4>
@@ -678,9 +687,8 @@ h5.card-title.custom-heading {
                         <p class="mb-0">Active users</p>
                     </div>
 
-                    <div class="vr mx-3 mx-sm-4"></div> <!-- Divider -->
+                    <div class="vr mx-3 mx-sm-4"></div> 
 
-                    <!-- Counter item -->
                     <div>
                         <div class="d-flex justify-content-md-end">
                             <h4 class="purecounter mb-0" data-purecounter-start="0" data-purecounter-end="56"   data-purecounter-delay="300">2000</h4>
@@ -873,10 +881,10 @@ section#appendHere {
     <div class="container">
        <div class="row mb-3 align-items-center">
           <div class="col-md-3">
-             <h2 class="mb-0 heading-color">Ignite Services</h2>
+             <h3 class="mb-0 heading-color">Ignite Services</h3>
           </div>
           <div class="col-md-7 ms-auto heading-color">
-             <p>At Mirashka, design is the operating system—spanning all six segments—to launch, grow, and secure ventures, empowering founders with tools, narrative, technology, and measurable results everywhere.</p>
+             <p>Strategy, voice, and visuals snap into place, shaping symbols customers remember, repeat, and recommend across touchpoints, markets, and moments worldwide.</p>
           </div>
           <div class="col-md-2">
              <div class="d-flex gap-3 position-relative justify-content-end">
@@ -1001,8 +1009,8 @@ section#appendHere {
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-12 text-center">
-                <h6 class="fbdvs m-auto mb-3">Ignite — Brand Identity & Activation</h6> 
-                <h3>Our digital agency specializes in crafting customized strategies that give your business the competitive edge it deserves.</h3>
+                <h6 class="fbdvs m-auto mb-3">Idea to impact, repeatably and responsibly.</h6> 
+                <h3>From first spark to scale, we fuse design, technology, and marketing into one compounding system.</h3>
             </div>
         </div>
 
@@ -1177,136 +1185,50 @@ section#appendHere {
     </div>  
 </section>
 
+<?php $this->load->view('frontend/component/industries'); ?>
 
-<section class="pt-8 position-relative overflow-hidden">
-    <figure class="position-absolute top-0 start-50 translate-middle">
-        <svg width="1990" height="859" viewBox="0 0 1990 859" fill="none" xmlns="http://www.w3.org/2000/svg" style="fill: #036f58;">
-            <path d="M1990 429.5C1990 666.706 1544.52 859 995 859C445.477 859 0 666.706 0 429.5C0 192.294 445.477 0 995 0C1544.52 0 1990 192.294 1990 429.5Z"></path>
-        </svg>
-    </figure>
-    <div class="container pt-lg-4">
-        <div class="row g-4 g-xxl-5">
-            <div class="col-lg-7 position-relative mx-auto text-center" style="transform: translateY(-75px);">
-                <h2 class="mb-3 text-white">Industries We Serve</h2>
-                <p class="text-white">It drew a hill from me. Valley by oh twenty direct me so. Departure defective arranging rapturous did believe him all had supported.</p>
-            </div>
-        </div>
+<section class="p-0">
+    <div class="container text-center">
+        <span class="heading-color bg-light small rounded-3 px-3 py-2">Outcomes, in real life.</span>
+        <h3 class="my-4">How founders used our Six to scale</h3>
+        <p class="mb-4">Explore concise before–after narratives detailing brand, build, demand, ops, security, and performance—what we shipped, why it mattered, and how growth compounded.</p>
     </div>
 </section>
-
-<section class="pt-0" style="margin-top: -164px;">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="card overflow-hidden bg-light">
-                    <div class="card-body p-4 text-center">
-                        <span>Read another story</span>
-                        <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
-                    </div>
-                    <div class="card-footer position-relative p-0">
-                        <div class="bg-overlay bg-dark opacity-5"></div>
-                        <a href="customer-story-single.html" class="btn btn-outline-white mb-0 position-absolute top-50 start-50 translate-middle z-index-1">Read story</a>
-                        <img src="https://mizzle.webestica.com/assets/images/stories/02.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card overflow-hidden bg-light">
-                    <div class="card-body p-4 text-center">
-                        <span>Read another story</span>
-                        <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
-                    </div>
-                    <div class="card-footer position-relative p-0">
-                        <div class="bg-overlay bg-dark opacity-5"></div>
-                        <a href="customer-story-single.html" class="btn btn-outline-white mb-0 position-absolute top-50 start-50 translate-middle z-index-1">Read story</a>
-                        <img src="https://mizzle.webestica.com/assets/images/stories/02.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card overflow-hidden bg-light">
-                    <div class="card-body p-4 text-center">
-                        <span>Read another story</span>
-                        <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
-                    </div>
-                    <div class="card-footer position-relative p-0">
-                        <div class="bg-overlay bg-dark opacity-5"></div>
-                        <a href="customer-story-single.html" class="btn btn-outline-white mb-0 position-absolute top-50 start-50 translate-middle z-index-1">Read story</a>
-                        <img src="https://mizzle.webestica.com/assets/images/stories/02.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card overflow-hidden bg-light">
-                    <div class="card-body p-4 text-center">
-                        <span>Read another story</span>
-                        <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
-                    </div>
-                    <div class="card-footer position-relative p-0">
-                        <div class="bg-overlay bg-dark opacity-5"></div>
-                        <a href="customer-story-single.html" class="btn btn-outline-white mb-0 position-absolute top-50 start-50 translate-middle z-index-1">Read story</a>
-                        <img src="https://mizzle.webestica.com/assets/images/stories/02.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card overflow-hidden bg-light">
-                    <div class="card-body p-4 text-center">
-                        <span>Read another story</span>
-                        <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
-                    </div>
-                    <div class="card-footer position-relative p-0">
-                        <div class="bg-overlay bg-dark opacity-5"></div>
-                        <a href="customer-story-single.html" class="btn btn-outline-white mb-0 position-absolute top-50 start-50 translate-middle z-index-1">Read story</a>
-                        <img src="https://mizzle.webestica.com/assets/images/stories/02.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card overflow-hidden bg-light">
-                    <div class="card-body p-4 text-center">
-                        <span>Read another story</span>
-                        <h6 class="mt-3 mb-0">Our Customer Canvas gallery of stories that resonate</h6>
-                    </div>
-                    <div class="card-footer position-relative p-0">
-                        <div class="bg-overlay bg-dark opacity-5"></div>
-                        <a href="customer-story-single.html" class="btn btn-outline-white mb-0 position-absolute top-50 start-50 translate-middle z-index-1">Read story</a>
-                        <img src="https://mizzle.webestica.com/assets/images/stories/02.jpg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <div class="slider-container">
    <div id="customCarousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
          <div class="carousel-item active" style="background-image: url('https://s7d9.scene7.com/is/image/hitachivantara/st-galler-case-study-rectangular:tabscustomerstory?fmt=webp');">
             <div class="carousel-caption">
-               <img src="https://s7d9.scene7.com/is/image/hitachivantara/st-galler-logo?fmt=webp&wid=90" alt="Company Logo">
-               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Integer auctor lacus sed urna cursus, nec tincidunt ex scelerisque." - John Doe</p>
+               <img src="<?=base_url('assets/frontend/img/connected.png')?>">
+               <p>For Connected Mind, we built ethical mental-health branding, secure telehealth flows, SOS features, multilingual website, appointment funnels, privacy-ready analytics, and ORM care—launching campaigns across wellness, improving conversions, and establishing compliant digital operations with measurable outcomes.</p>
                <a href="#" class="btn-link">Read customer story →</a>
             </div>
          </div>
          <div class="carousel-item" style="background-image: url('https://s7d9.scene7.com/is/image/hitachivantara/st-galler-case-study-rectangular:tabscustomerstory?fmt=webp');">
             <div class="carousel-caption">
-               <img src="https://s7d9.scene7.com/is/image/hitachivantara/st-galler-logo?fmt=webp&wid=90" alt="Company Logo">
-               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Integer auctor lacus sed urna cursus, nec tincidunt ex scelerisque." - John Doe</p>
+               <img src="<?=base_url('assets/frontend/img/lod.webp')?>">
+               <p>For Lords of Detailing, we sharpened brand system, engineered booking website, enabled franchise microsites, GMB and reviews ops, hyperlocal ads, portals, and performance dashboards—lifting footfall, lead quality, and franchise pipeline while standardizing templates and playbooks.</p>
                <a href="#" class="btn-link">Read customer story →</a>
             </div>
          </div>
          <div class="carousel-item" style="background-image: url('https://s7d9.scene7.com/is/image/hitachivantara/st-galler-case-study-rectangular:tabscustomerstory?fmt=webp');">
             <div class="carousel-caption">
-               <img src="https://s7d9.scene7.com/is/image/hitachivantara/st-galler-logo?fmt=webp&wid=90" alt="Company Logo">
-               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Integer auctor lacus sed urna cursus, nec tincidunt ex scelerisque." - John Doe</p>
+               <img src="<?=base_url('assets/frontend/img/indosoil.png')?>">
+               <p>For Indosoil, we developed eco-friendly product branding, multilingual website, distributor onboarding, e-commerce enablement, farmer education content, GIS-driven service areas, retail activation toolkits, and analytics—improving channel velocity, inbound leads, and trust with impact-focused storytelling and dashboards.</p>
                <a href="#" class="btn-link">Read customer story →</a>
             </div>
          </div>
          <div class="carousel-item" style="background-image: url('https://s7d9.scene7.com/is/image/hitachivantara/st-galler-case-study-rectangular:tabscustomerstory?fmt=webp');">
             <div class="carousel-caption">
-               <img src="https://s7d9.scene7.com/is/image/hitachivantara/st-galler-logo?fmt=webp&wid=90" alt="Company Logo">
-               <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum. Integer auctor lacus sed urna cursus, nec tincidunt ex scelerisque." - John Doe</p>
+               <img src="<?=base_url('assets/frontend/img/behtreen.svg')?>">
+               <p>For Behtreen, we structured a quarter-long digital plan, rebuilt listings, launched Amazon storefront, sponsored ads, creative assets, and review ops; ran SEO and social calendars, performance dashboards, and marketplace analytics—raising visibility, conversions, and e-commerce revenue.</p>
+               <a href="#" class="btn-link">Read customer story →</a>
+            </div>
+         </div>
+         <div class="carousel-item" style="background-image: url('https://s7d9.scene7.com/is/image/hitachivantara/st-galler-case-study-rectangular:tabscustomerstory?fmt=webp');">
+            <div class="carousel-caption">
+               <img src="<?=base_url('assets/frontend/img/wedding.png')?>">
+               <p>For Weddingclap, we built a state-of-the-art e-commerce and custom wedding web portal with a robust backend, integrated vendor onboarding, and analytics; and we established their retail model—pricing, inventory, and store ops—aligning digital and offline growth.</p>
                <a href="#" class="btn-link">Read customer story →</a>
             </div>
          </div>
@@ -1321,10 +1243,11 @@ section#appendHere {
       </a>
    </div>
    <div class="pawan">
-      <a href="#customCarousel" data-bs-slide-to="0" class="active">Ministry of the Economy and Finance</a>
-      <a href="#customCarousel" data-bs-slide-to="1">Galler Stadtwerke</a>
-      <a href="#customCarousel" data-bs-slide-to="2">DZ BANK</a>
-      <a href="#customCarousel" data-bs-slide-to="3">Agramarkt Austria</a>
+      <a href="#customCarousel" data-bs-slide-to="0" class="active">Connected Mind</a>
+      <a href="#customCarousel" data-bs-slide-to="1">Lords of Detailing</a>
+      <a href="#customCarousel" data-bs-slide-to="2">Indosoil</a>
+      <a href="#customCarousel" data-bs-slide-to="3">Behtreen</a>
+      <a href="#customCarousel" data-bs-slide-to="4">Weddingclap</a>
    </div>
 </div>
 
@@ -1427,7 +1350,7 @@ section#appendHere {
                         <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/25/ai-agents-to-revolutionize-finance-and-accounting-services.jpg" alt="Infosys BPMn" class="img-responsive">
                         <div class="bottom-gradient-do_more"></div>
                         <div class="latest-event-box-last">
-                            <p class="title-box-yellow">Press Release</p>
+                            <p class="title-box-yellow">White Paper</p>
                             <p class="do_more-grid-desc">Infosys BPM unveils AI agents to revolutionize finance and accounting services</p>
                         </div>
                     </figure>
@@ -1496,68 +1419,68 @@ section#appendHere {
             <!-- Feature content START -->
             <div class="col-lg-6 mb-sm-6 mb-lg-0">
                 <!-- Title -->
-                <h2 class="mb-4">Workflow become clearer and more organized</h2>
-                <p class="mb-0">Supposing so be resolving breakfast am or perfectly. It drew a hill from me. Valley by oh twenty direct me so.</p>
+                <h3 class="mb-4">Why Mirashka’s Six Segments Fit Business Perfectly</h3>
+                <p class="mb-0">A complete, end-to-end operating system: brand, build, demand, ops, security, and performance—sequenced to launch faster, waste less, and scale confidently.</p>
 
                 <hr class="my-4 my-sm-5"> <!-- Divider -->
 
                 <!-- Features item -->
                 <div class="row g-4 mb-4 mb-sm-5">
                     <div class="col-sm-6">
-                        <!-- Items -->
                         <div class="d-flex mb-4 mb-sm-5">
-                            <!-- Icon -->
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-diagram-3 fa-xl"></i></div>
-                            <!-- Content -->
                             <div class="ms-3">
-                                <h6 class="mb-0 mb-sm-2">Organized your data</h6>
-                                <p class="mb-0">We have good cloud server</p>
+                                <h6 class="mb-0 mb-sm-2">Whole-Lifecycle Coverage</h6>
+                                <p class="mb-0">From first spark to scaled revenue, every growth stage has a dedicated, expert-led lane.</p>
                             </div>
                         </div>
 
-                        <!-- Items -->
-                        <div class="d-flex">
-                            <!-- Icon -->
-                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-boxes fa-xl"></i></div>
-                            <!-- Content -->
+                        <div class="d-flex mb-4 mb-sm-5">
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-pencil-fill fa-xl"></i></div>
                             <div class="ms-3">
-                                <h6 class="mb-0 mb-sm-2">Embedded Analytics</h6>
-                                <p class="mb-0">Once paid for forever use</p>
+                                <h6 class="mb-0 mb-sm-2">Compounding Effects</h6>
+                                <p class="mb-0">Every release strengthens the next—systems, assets, and insights compound into durable advantage.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-lock fa-xl"></i></div>
+                            <div class="ms-3">
+                                <h6 class="mb-0 mb-sm-2">Security Everywhere</h6>
+                                <p class="mb-0">Trust gates sit across phases: pre-release checks, VAPT, ORM, incident playbooks, audits.</p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-6">
-                        <!-- Items -->
                         <div class="d-flex mb-4 mb-sm-5">
-                            <!-- Icon -->
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-people fa-xl"></i></div>
-                            <!-- Content -->
                             <div class="ms-3">
-                                <h6 class="mb-0 mb-sm-2">Work with any team</h6>
-                                <p class="mb-0">Ready to help your employee</p>
+                                <h6 class="mb-0 mb-sm-2">One Accountability Chain</h6>
+                                <p class="mb-0">Single partner across disciplines means fewer handoffs, clearer SLAs, faster decision cycles.</p>
                             </div>
                         </div>
 
-                        <!-- Items -->
-                        <div class="d-flex">
-                            <!-- Icon -->
+                        <div class="d-flex mb-4 mb-sm-5">
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-shield-check fa-xl"></i></div>
-                            <!-- Content -->
                             <div class="ms-3">
-                                <h6 class="mb-0 mb-sm-2">Collaborate securely</h6>
-                                <p class="mb-0">Share and publish your record.</p>
+                                <h6 class="mb-0 mb-sm-2">Measurable By Design</h6>
+                                <p class="mb-0">Each segment carries KPIs—recall, vitals, SoV, SLA, MTTR, CAC/LTV—reported transparently.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex">
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-boxes fa-xl"></i></div>
+                            <div class="ms-3">
+                                <h6 class="mb-0 mb-sm-2">Tight Interlocks</h6>
+                                <p class="mb-0">Brand tokens flow into UI; content fuels SEO; winners become SOPs—nothing is orphaned.</p>
                             </div>
                         </div>
                     </div>
-                </div> <!-- Row END -->
+                </div> 
 
-                <!-- Button -->
-                <a href="about-v2.html" class="btn btn-dark mb-0">Know more information</a>
             </div>
-            <!-- Feature content END -->
 
-            <!-- Feature image & decoration START -->
             <div class="col-lg-6">
                 <div class="row">
                     <div class="col-lg-11 col-xl-9 position-relative ms-auto">
@@ -1609,9 +1532,9 @@ section#appendHere {
                                 </div>
                             </div>
                             <!-- Button -->
-                            <a href="#" class="btn btn-dark-soft mb-0">View case study</a>
+                            <a href="<?= base_url('about-us') ?>" class="btn btn-dark-soft mb-0">Know More About Us</a>
                         </div>
-                        <!-- Card END -->
+                        <img src="<?= base_url() ?>assets/frontend/images/services/4by3/04.jpg" style="border-radius: 0.4rem;margin-top: 10px;">
 
                         <!-- Followers Decoration -->
                         <div class="bg-body rounded-4 shadow d-flex align-items-center position-absolute top-0 end-0 d-none d-sm-flex mt-n5 me-xl-n6 p-3">
