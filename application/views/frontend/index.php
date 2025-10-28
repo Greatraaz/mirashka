@@ -1329,6 +1329,167 @@ section#appendHere {
 </div>
 
 
+<style type="text/css">
+.latest-event-box, .latest-event-box-last {
+    bottom: 0;
+    height: auto;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+}    
+.grid-do_more figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0;
+}
+.grid-do_more figure img {
+    position: relative;
+    display: block;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+.bottom-gradient-do_more {
+    background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 23%, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0) 68%, rgba(0, 0, 0, 0) 81%, rgba(0, 0, 0, 0) 92%, rgba(0, 0, 0, 0) 100%) repeat scroll 0 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateY(100%);
+    transition: all 0.5s ease 0.1s;
+}
+.bottom-gradient-do_more::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.bottom-gradient-do_more::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 0;
+    height: 0;
+    background: transparent;
+    border: 2px solid transparent;
+}
+.title-box-yellow {
+    background-color: #ab6604;
+    color: #ffffff;
+    padding: 4px 8px;
+    display: inline-block;
+    position: relative;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.title-box-yellow:after {
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 24px solid #ab6604;
+    clear: both;
+    content: "";
+    height: 0;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    width: 0;
+}
+.do_more-grid-desc {
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 500;
+}
+.grid-do_more figure:hover .bottom-gradient-do_more {
+    background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%) repeat scroll 0 0;
+    transform: translateY(0px);
+}
+</style>
+<section class="grid-do_more pb-5">
+    <div class="container">
+        <div class="row g-2">
+            <div class="col-md-6"> 
+                <a href="#">
+                    <figure class="img-effect"> 
+                        <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/25/ai-agents-to-revolutionize-finance-and-accounting-services.jpg" alt="Infosys BPMn" class="img-responsive">
+                        <div class="bottom-gradient-do_more"></div>
+                        <div class="latest-event-box-last">
+                            <p class="title-box-yellow">Press Release</p>
+                            <p class="do_more-grid-desc">Infosys BPM unveils AI agents to revolutionize finance and accounting services</p>
+                        </div>
+                    </figure>
+                </a> 
+            </div>
+            <div class="col-md-6"> 
+                <div class="row g-2">
+                    <div class="col-md-6"> 
+                        <a href="#">
+                            <figure class="img-effect"> 
+                                <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/24/ai-first/7.jpg" class="img-responsive">
+                                <div class="bottom-gradient-do_more"> </div>
+                                <div class="latest-event-box-last">
+                                      <p class="title-box-yellow">Testimonial</p>
+                                      <p class="do_more-grid-desc">Americana and Infosys BPM: pioneering the future of accounts payable with agentic AI</p>
+                                </div>
+                            </figure>
+                        </a> 
+                    </div>
+                    <div class="col-md-6"> 
+                        <a href="#">
+                            <figure class="img-effect"> 
+                                <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/24/ai-first/3.jpg" class="img-responsive">
+                                <div class="bottom-gradient-do_more"> </div>
+                                <div class="latest-event-box-last">
+                                  <p class="title-box-yellow">Case Study</p>
+                                  <p class="do_more-grid-desc">Transcending IT service language barriers with AI</p>
+                                </div>
+                            </figure>
+                        </a> 
+                    </div>
+                    <div class="col-md-6"> 
+                        <a href="#">
+                            <figure class="img-effect"> 
+                                <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/24/ai-first/8.jpg" class="img-responsive">
+                                <div class="bottom-gradient-do_more"> </div>
+                                <div class="latest-event-box-last">
+                                    <p class="title-box-yellow">Report</p>
+                                    <p class="do_more-grid-desc">Transforming customer experience with gen AI</p>
+                                </div>
+                            </figure>
+                        </a> 
+                    </div>
+                    <div class="col-md-6"> 
+                        <a href="#">
+                            <figure class="img-effect"> 
+                                <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/24/ai-first/9.jpg" class="img-responsive">
+                                <div class="bottom-gradient-do_more"> </div>
+                                <div class="latest-event-box-last">
+                                    <p class="title-box-yellow">Podcast</p>
+                                    <p class="do_more-grid-desc">Transforming customer experience with gen AI</p>
+                                </div>
+                            </figure>
+                        </a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
 <section class="overflow-hidden">
     <div class="container">
         <div class="row g-4">
