@@ -94,7 +94,7 @@
                <?php $this->load->view('frontend/component/megamenu/industries'); ?>
                </li>
                <li class="nav-item dropdown dropdown-fullwidth me-n2">
-               <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Technologies</a>
+               <a class="nav-link dropdown-toggle" href="javascript:void(0)" id="megaMenu" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ecosystem</a>
                <?php $this->load->view('frontend/component/megamenu/solution'); ?>
                </li>
 

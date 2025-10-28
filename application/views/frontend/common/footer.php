@@ -187,9 +187,15 @@
 <div class="back-top"></div>
 <!-- Bootstrap JS -->
 <script src="<?= base_url('assets/frontend/vendor/bootstrap/dist/js/bootstrap.bundle.min.js') ?>"></script>
-<script src="<?= base_url('assets/frontend/vendor/purecounterjs/dist/purecounter_vanilla.js') ?>"></script>
 <script src="<?= base_url('assets/frontend/vendor/isotope/isotope.pkgd.min.js') ?>"></script>
-<script src="<?= base_url('assets/frontend/vendor/imagesLoaded/imagesloaded.pkgd.min.js') ?>"></script>
+
+<!-- home -->
+<script src="<?= base_url('assets/frontend/vendor/purecounterjs/dist/purecounter_vanilla.js') ?>"></script>
+<script src="<?= base_url()?>assets/frontend/vendor/jarallax/jarallax.min.js"></script>
+<script src="<?= base_url()?>assets/frontend/vendor/jarallax/jarallax-video.min.js"></script>
+<script src="<?= base_url()?>assets/frontend/vendor/sticky-js/sticky.min.js"></script>
+<!-- home -->
+
 <script src="<?= base_url('assets/frontend/vendor/ityped/index.js') ?>"></script>
 <script src="<?= base_url('assets/frontend/vendor/swiper/swiper-bundle.min.js') ?>"></script>
 <script src="<?= base_url('assets/frontend/js/functions.js') ?>"></script>
