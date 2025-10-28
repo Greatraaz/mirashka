@@ -1416,18 +1416,16 @@ section#appendHere {
 <section class="overflow-hidden">
     <div class="container">
         <div class="row g-4">
-            <!-- Feature content START -->
-            <div class="col-lg-6 mb-sm-6 mb-lg-0">
-                <!-- Title -->
-                <h3 class="mb-4">Why Mirashka’s Six Segments Fit Business Perfectly</h3>
+            <div class="col-lg-7 mb-lg-0">
+                <h3 class="mb-2">Why Mirashka’s Six Segments Fit Business Perfectly</h3>
                 <p class="mb-0">A complete, end-to-end operating system: brand, build, demand, ops, security, and performance—sequenced to launch faster, waste less, and scale confidently.</p>
 
-                <hr class="my-4 my-sm-5"> <!-- Divider -->
+                <hr class="my-4">
 
                 <!-- Features item -->
                 <div class="row g-4 mb-4 mb-sm-5">
                     <div class="col-sm-6">
-                        <div class="d-flex mb-4 mb-sm-5">
+                        <div class="d-flex mb-3">
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-diagram-3 fa-xl"></i></div>
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Whole-Lifecycle Coverage</h6>
@@ -1435,7 +1433,7 @@ section#appendHere {
                             </div>
                         </div>
 
-                        <div class="d-flex mb-4 mb-sm-5">
+                        <div class="d-flex mb-3">
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-pencil-fill fa-xl"></i></div>
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Compounding Effects</h6>
@@ -1453,7 +1451,7 @@ section#appendHere {
                     </div>
 
                     <div class="col-sm-6">
-                        <div class="d-flex mb-4 mb-sm-5">
+                        <div class="d-flex mb-3">
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-people fa-xl"></i></div>
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">One Accountability Chain</h6>
@@ -1461,7 +1459,7 @@ section#appendHere {
                             </div>
                         </div>
 
-                        <div class="d-flex mb-4 mb-sm-5">
+                        <div class="d-flex mb-3">
                             <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-shield-check fa-xl"></i></div>
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Measurable By Design</h6>
@@ -1481,10 +1479,9 @@ section#appendHere {
 
             </div>
 
-            <div class="col-lg-6">
-                <div class="row">
-                    <div class="col-lg-11 col-xl-9 position-relative ms-auto">
-                        <!-- SVG decoration -->
+            <div class="col-lg-5">
+                <div class="row justify-content-end">
+                    <div class="col-lg-11 position-relative mt-5">
                         <figure class="position-absolute top-50 start-0 translate-middle z-index-2">
                             <svg width="159" height="155" viewBox="0 0 159 155" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path class="fill-primary" d="M14.2394 111.637C13.5965 111.365 12.9265 111.083 12.2734 110.839C10.1612 110.017 8.07613 109.206 5.88225 108.354C6.18466 107.629 6.68446 107.288 7.12302 106.862C8.19051 105.834 9.28521 104.815 10.1758 103.596C10.9576 102.585 11.4775 101.445 11.7254 100.202C11.7797 99.9745 11.7898 99.6988 11.5177 99.597C11.3272 99.5257 11.0449 99.4511 10.8681 99.5091C10.4294 99.6864 10.035 99.9113 9.6304 100.163C6.57033 102.123 4.06486 104.755 1.43689 107.217C1.2567 107.367 1.12074 107.565 0.984778 107.762C0.525929 108.491 0.553501 109.495 1.0979 110.195C1.43134 110.63 1.85998 110.977 2.36679 111.198C5.43823 112.441 8.5844 113.401 11.9004 113.742C12.5874 113.813 13.3322 113.812 13.985 113.56C14.4509 113.393 14.8385 113.103 14.8213 112.569C14.8551 112.147 14.6374 111.817 14.2394 111.637Z"/>
@@ -1494,7 +1491,6 @@ section#appendHere {
                             </svg>
                         </figure>
 
-                        <!-- SVG decoration -->
                         <figure class="position-absolute top-0 start-100 translate-middle mt-8 ms-5 d-none d-xl-block">
                             <svg class="fill-mode" width="96" height="99" viewBox="0 0 96 99" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M66.5204 64.3653C68.4878 62.2239 69.8711 59.7411 70.3936 56.886C72.4225 45.5894 64.3072 35.5653 52.1035 36.6825C44.603 37.3653 38.9777 44.5653 39.8999 52.0446C40.6684 58.2205 45.9556 62.4101 51.8576 61.448C54.6549 60.9825 56.776 59.4929 58.0363 56.886C59.02 54.8377 58.7126 52.5101 57.2985 51.0205C55.7923 49.4377 51.8576 48.6308 49.798 49.4377C49.4599 49.5618 49.2447 50.2136 49.4599 50.5239C49.7673 50.9273 50.1054 51.2687 50.4743 51.6101C51.1506 52.2308 51.8576 52.8205 52.5031 53.4722C52.9028 53.8756 52.872 54.4032 52.4724 54.8067C51.5195 55.8618 50.3206 56.048 49.0603 55.6756C46.9393 55.0239 45.8019 53.4411 45.4023 51.2998C44.3571 45.7136 49.4292 42.0205 53.1487 41.7722C58.6511 41.3687 63.5694 44.7205 65.1679 49.9963C66.7356 55.086 65.2294 59.7411 60.9873 62.9377C59.7884 63.8377 58.4666 64.5515 57.0219 65.017C53.0872 66.3204 49.1525 66.3515 45.2793 65.017C37.9325 62.5032 34.1823 56.6377 35.1352 48.5998C35.7193 43.6963 37.7788 39.4446 41.0065 35.7825C42.3898 34.1998 43.8653 32.7101 46.0478 32.3067C46.14 32.3067 46.2015 32.2446 46.2937 32.2136C46.5089 32.0894 46.5396 31.5308 46.3245 31.3136C46.0478 30.9722 45.6789 30.7549 45.2793 30.7239C44.4493 30.5998 43.6501 30.7239 42.8201 31.0032C41.2832 31.5618 40.0536 32.4929 38.8855 33.6101C34.336 37.9239 31.6616 43.2308 31.0468 49.4998C30.1861 58.4377 34.2745 65.048 41.8365 68.7101C44.8182 70.1377 47.9844 70.7273 51.2736 70.7584C52.3494 70.6963 53.4253 70.6653 54.5012 70.5101C59.2351 69.8584 63.2928 67.9032 66.5204 64.3653Z"/>
@@ -1508,50 +1504,36 @@ section#appendHere {
                             </svg>
                         </figure>
 
-                        <!-- Card START -->
                         <div class="card border p-4">
                             <h6>Recent Project</h6>
-                            <!-- Image -->
                             <img src="<?= base_url() ?>assets/frontend/images/about/07.jpg" class="card-img mb-3" alt="card image">
-                            <!-- Title -->
                             <h6>Design webflow multipurpose SaaS theme</h6>
-                            <!-- List -->
                             <ul class="nav nav-divider mb-2 mb-sm-3">
                                 <li class="nav-item">Tuesday, Jan 28</li>
                                 <li class="nav-item">11:30 PM</li>
                             </ul>
-                            <!-- Avatar -->
                             <div class="d-flex align-items-center mb-3">
-                                <!-- Avatar -->
                                 <div class="avatar avatar-sm">
                                     <img class="avatar-img rounded-circle" src="<?= base_url() ?>assets/frontend/images/avatar/02.jpg" alt="avatar">
                                 </div>
-                                <!-- Info -->
                                 <div class="ms-2">
                                     <small class="mb-0 fw-bold">Emma Watson</small>
                                 </div>
                             </div>
-                            <!-- Button -->
                             <a href="<?= base_url('about-us') ?>" class="btn btn-dark-soft mb-0">Know More About Us</a>
                         </div>
-                        <img src="<?= base_url() ?>assets/frontend/images/services/4by3/04.jpg" style="border-radius: 0.4rem;margin-top: 10px;">
 
-                        <!-- Followers Decoration -->
                         <div class="bg-body rounded-4 shadow d-flex align-items-center position-absolute top-0 end-0 d-none d-sm-flex mt-n5 me-xl-n6 p-3">
-                            <!-- Avatar -->
                             <div class="avatar">
                                 <img class="avatar-img rounded-circle" src="<?= base_url() ?>assets/frontend/images/avatar/05.jpg" alt="avatar">
                             </div>
-                            <!-- Info -->
                             <div class="mx-3">
                                 <h6 class="mb-0">Followers Gain</h6>
                                 <small>Form the last 7 days</small>
                             </div>
-                            <!-- Badge -->
                             <div class="badge bg-primary">24.7%</div>
                         </div>
 
-                        <!-- Social media button -->
                         <ul class="list-inline bg-body d-flex flex-column rounded shadow position-absolute top-0 start-0 d-none d-sm-flex p-2 mb-0 mt-3 ms-xl-n5">
                             <li class="list-inline-item me-0"> <a class="btn btn-xs btn-icon bg-facebook" href="#"><i class="fab fa-fw fa-facebook-f lh-base"></i></a> </li>
                             <li class="list-inline-item me-0"> <a class="btn btn-xs btn-icon bg-instagram" href="#"><i class="fab fa-fw fa-instagram lh-base"></i></a> </li>
@@ -1562,8 +1544,7 @@ section#appendHere {
                     </div>
                 </div>
             </div>
-            <!-- Feature image & decoration END -->
-        </div> <!-- Row END -->
+        </div> 
     </div>
 </section>
 
