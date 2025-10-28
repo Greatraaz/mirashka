@@ -2381,9 +2381,9 @@ Left right feature END -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function() {
-    $("button .rounded-pill").click(function() {
+    $("button.rounded-pill").click(function() {
         var id = $(this).attr("id"); 
-        $("button .rounded-pill").removeClass("active");
+        $("button.rounded-pill").removeClass("active");
         $(this).addClass("active");
         $("#appendHere").load("<?= base_url('main/loadSection/') ?>" + id);
     });
