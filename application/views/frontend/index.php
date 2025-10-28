@@ -1346,7 +1346,7 @@ section#appendHere {
                         <!-- Items -->
                         <div class="d-flex mb-4 mb-sm-5">
                             <!-- Icon -->
-                            <div class="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i class="bi bi-diagram-3 fa-xl"></i></div>
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-diagram-3 fa-xl"></i></div>
                             <!-- Content -->
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Organized your data</h6>
@@ -1357,7 +1357,7 @@ section#appendHere {
                         <!-- Items -->
                         <div class="d-flex">
                             <!-- Icon -->
-                            <div class="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i class="bi bi-boxes fa-xl"></i></div>
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-boxes fa-xl"></i></div>
                             <!-- Content -->
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Embedded Analytics</h6>
@@ -1370,7 +1370,7 @@ section#appendHere {
                         <!-- Items -->
                         <div class="d-flex mb-4 mb-sm-5">
                             <!-- Icon -->
-                            <div class="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i class="bi bi-people fa-xl"></i></div>
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-people fa-xl"></i></div>
                             <!-- Content -->
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Work with any team</h6>
@@ -1381,7 +1381,7 @@ section#appendHere {
                         <!-- Items -->
                         <div class="d-flex">
                             <!-- Icon -->
-                            <div class="icon-md flex-shrink-0 text-primary bg-primary bg-opacity-10 rounded-circle"><i class="bi bi-shield-check fa-xl"></i></div>
+                            <div class="icon-md flex-shrink-0 text-white bg-dark bg-opacity-10 rounded-circle"><i class="bi bi-shield-check fa-xl"></i></div>
                             <!-- Content -->
                             <div class="ms-3">
                                 <h6 class="mb-0 mb-sm-2">Collaborate securely</h6>
