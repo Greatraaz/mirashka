@@ -23,7 +23,7 @@
          </figure>
 
          <div class="row g-4 position-relative">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                <h3 class="text-white">Let's talk about your digital agency goals</h3>
                <form class="col-md-10 bg-body rounded-2 p-2 mt-4">
                   <div class="input-group">
@@ -33,7 +33,7 @@
                </form>
             </div>
 
-            <div class="col-lg-5 col-xl-4 ms-auto text-lg-end">
+<!--             <div class="col-lg-5 col-xl-4 ms-auto text-lg-end">
                <ul class="list-group list-group-borderless mb-0">
                   <li class="list-group-item mb-0">
                      <a href="#" class="text-white fw-normal">
@@ -49,7 +49,7 @@
                     </a>
                   </li>
                </ul>
-            </div>
+            </div> -->
          </div> 
       </div>
    </div>
@@ -179,6 +179,7 @@
 <script src="<?= base_url()?>assets/frontend/vendor/jarallax/jarallax.min.js"></script>
 <script src="<?= base_url()?>assets/frontend/vendor/jarallax/jarallax-video.min.js"></script>
 <script src="<?= base_url()?>assets/frontend/vendor/sticky-js/sticky.min.js"></script>
+<script src="<?= base_url()?>assets/frontend/vendor/imagesLoaded/imagesloaded.pkgd.min.js"></script>
 <!-- home -->
 
 <script src="<?= base_url('assets/frontend/vendor/ityped/index.js') ?>"></script>

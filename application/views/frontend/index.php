@@ -751,8 +751,9 @@ h5.card-title.custom-heading {
     <div class="container pb-6 position-relative">
         <!-- Title -->
         <div class="inner-container-small text-center mb-4 mb-sm-5">
-            <span class="text-primary fw-bold text-uppercase">Features</span>
-            <h2 class="mb-0 mt-3">Powerful SaaS features for your agency</h2>
+            <span class="text-primary fw-bold text-uppercase">Six moves, one unified growth engine.</span>
+            <h3 class="mb-2">From brand to ROI, delivered as one system</h3>
+            <p>We fuse branding, product build, marketing, operations, security, and performance into a framework—launch faster, scale cleaner, reduce waste, and prove growth with dashboards leaders trust.</p>
         </div>
 
         <div class="row">
@@ -1005,7 +1006,7 @@ section#appendHere {
 
 </section>
 
-<section>
+<section class="pt-5">
     <div class="container">
         <div class="row mb-5">
             <div class="col-md-12 text-center">
@@ -1332,8 +1333,8 @@ section#appendHere {
 }
 .do_more-grid-desc {
     color: #fff;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 18px;
+    line-height: 20px;
     font-weight: 500;
 }
 .grid-do_more figure:hover .bottom-gradient-do_more {
@@ -1343,6 +1344,13 @@ section#appendHere {
 </style>
 <section class="grid-do_more pb-5">
     <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h6 class="fbdvs m-auto mb-3">Ideas that compound into measurable growth</h6> 
+                <h3>Insights that turn strategy into systems, and systems into outcomes</h3>
+                <p>Practical research, playbooks, and proofs from real engagements—covering brand, build, demand, operations, security, and performance—to help founders choose better bets, avoid waste, and scale sustainable revenue with confidence over time.</p>
+            </div>
+        </div>
         <div class="row g-2">
             <div class="col-md-6"> 
                 <a href="#">
@@ -1351,7 +1359,7 @@ section#appendHere {
                         <div class="bottom-gradient-do_more"></div>
                         <div class="latest-event-box-last">
                             <p class="title-box-yellow">White Paper</p>
-                            <p class="do_more-grid-desc">Infosys BPM unveils AI agents to revolutionize finance and accounting services</p>
+                            <p class="do_more-grid-desc">Deep dive frameworks with diagrams and checklists to implement tomorrow, not someday, at your scale.</p>
                         </div>
                     </figure>
                 </a> 
@@ -1364,8 +1372,8 @@ section#appendHere {
                                 <img src="https://www.infosysbpm.com/content/dam/infosys-bpm/en/sitecollectionimages/24/ai-first/7.jpg" class="img-responsive">
                                 <div class="bottom-gradient-do_more"> </div>
                                 <div class="latest-event-box-last">
-                                      <p class="title-box-yellow">Testimonial</p>
-                                      <p class="do_more-grid-desc">Americana and Infosys BPM: pioneering the future of accounts payable with agentic AI</p>
+                                      <p class="title-box-yellow">Webinar</p>
+                                      <p class="do_more-grid-desc">Live demos showing stacks, tactics, and measurement; bring questions and leave with templates and playbooks.</p>
                                 </div>
                             </figure>
                         </a> 
@@ -1377,7 +1385,7 @@ section#appendHere {
                                 <div class="bottom-gradient-do_more"> </div>
                                 <div class="latest-event-box-last">
                                   <p class="title-box-yellow">Case Study</p>
-                                  <p class="do_more-grid-desc">Transcending IT service language barriers with AI</p>
+                                  <p class="do_more-grid-desc">Before-after narratives with numbers, artifacts, and lessons you can reuse immediately across similar markets today.</p>
                                 </div>
                             </figure>
                         </a> 
@@ -1389,7 +1397,7 @@ section#appendHere {
                                 <div class="bottom-gradient-do_more"> </div>
                                 <div class="latest-event-box-last">
                                     <p class="title-box-yellow">Report</p>
-                                    <p class="do_more-grid-desc">Transforming customer experience with gen AI</p>
+                                    <p class="do_more-grid-desc">Quarterly benchmarks by category and city; compare metrics, spot gaps, and prioritize improvements with confidence.</p>
                                 </div>
                             </figure>
                         </a> 
@@ -1401,7 +1409,7 @@ section#appendHere {
                                 <div class="bottom-gradient-do_more"> </div>
                                 <div class="latest-event-box-last">
                                     <p class="title-box-yellow">Podcast</p>
-                                    <p class="do_more-grid-desc">Transforming customer experience with gen AI</p>
+                                    <p class="do_more-grid-desc">Operators and founders unpack wins, misses, and rituals you can copy today, for any stage.</p>
                                 </div>
                             </figure>
                         </a> 
@@ -1548,27 +1556,22 @@ section#appendHere {
     </div>
 </section>
 
-<section class="bg-light overflow-hidden" >
+<!-- <section class="bg-light overflow-hidden" >
    <div class="container">
-      <!-- Title -->
       <div class="row g-4 align-items-center mb-4 mb-lg-5">
          <div class="col-lg-5">
             <h2 class="mb-0">Integrates with your workflow</h2>
          </div>
          <div class="col-lg-5 ms-auto text-lg-end">
-            <!-- Button -->
             <div class="d-inline-block justify-content-center mx-auto bg-dark rounded px-5 py-3">
                <span class="text-white">Explore our</span><a class="ms-2" href="integrations.html">Integration library<span class="bi-chevron-right small ms-1"></span></a>
             </div>
          </div>
       </div>
-      <!-- Integrations cards -->
       <div class="row g-4 g-lg-5">
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3 ">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4 ">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                   <img src="<?= base_url('assets/frontend/images/elements/github.svg') ?>" class="h-40px" alt="Integrations-icon">
 
@@ -1581,11 +1584,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/dropbox.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Dropbox</h6>
@@ -1597,11 +1598,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/reddit.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Reddit</h6>
@@ -1613,11 +1612,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/mailchimp.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Mailchimp</h6>
@@ -1629,11 +1626,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/shopify.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Shopify</h6>
@@ -1645,11 +1640,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/slack.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Slack</h6>
@@ -1661,11 +1654,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/google-drive.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Drive</h6>
@@ -1677,11 +1668,9 @@ section#appendHere {
                </div>
             </div>
          </div>
-         <!-- Item -->
          <div class="col-sm-6 col-lg-4 col-xl-3">
             <div class="card card-hover-shadow border-primary-hover border h-100 p-4">
                <div class="card-body p-0">
-                  <!-- Logo -->
                   <div class="d-flex gap-3 align-items-center mb-3">
                      <img src="<?=base_url('assets/frontend/images/elements/webflow.svg') ?>" class="h-40px" alt="Integrations-icon">
                      <h6 class="mb-0">Webflow</h6>
@@ -1695,7 +1684,7 @@ section#appendHere {
          </div>
       </div>
    </div>
-</section>
+</section> -->
 
 <style type="text/css">
 .card-keypartner {
@@ -1791,6 +1780,208 @@ section#appendHere {
    </div>
 </section>
 
+<section class="pt-7">
+    <div class="container">
+  
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h6 class="fbdvs m-auto mb-3">Portfolio tagline</h6> 
+                <h3>Portfolio heading</h3>
+                <p>Practical research, playbooks, and proofs from real engagements—covering brand, build, demand, operations, security, and performance—to help founders choose better bets, avoid waste, and scale sustainable revenue with confidence over time.</p>
+            </div>
+        </div>
+
+        <div class="d-lg-flex align-items-center justify-content-center mt-2">
+            <h6 class="mb-lg-0 me-3">Browse by:</h6>
+            <div class="grid-menu" data-target=".filter-container">
+                <ul class="nav nav-pills nav-pills-primary-soft gap-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-filter="*">All work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-filter=".marketing">Marketing</a>          
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-filter=".design">Web design</a>        
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" data-filter=".business">Development</a>        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-filter=".brand">Brand design</a>        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-filter=".ui">UI/UX design</a>        
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Portfolio item START -->
+        <div class="row g-4 filter-container mt-3" data-isotope='{"layoutMode": "masonry"}'>
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item marketing business brand">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/01.jpg" alt="portfolio-img">  
+
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v1.html" class="text-white stretched-link">Dynamic Workflows Website</a></h6>
+                            <small class="text-white">UI/UX design</small>
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item brand ui">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/04.jpg" alt="portfolio-img">  
+                        
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v2.html" class="text-white stretched-link">ElevateTech Redesign</a></h6>
+                            <small class="text-white">Brand design</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item ui">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/09.jpg" alt="portfolio-img"> 
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v1.html" class="text-white stretched-link">UI/UX Enhancement for SnapMediae</a></h6>
+                            <small class="text-white">UI/UX design</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item design marketing">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/05.jpg" alt="portfolio-img">
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v2.html" class="text-white stretched-link">Sustainability Initiative</a></h6>
+                            <small class="text-white">Business dev</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item business design brand">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/02.jpg" alt="portfolio-img">      
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v2.html" class="text-white stretched-link">User-Centric Redesign</a></h6>
+                            <small class="text-white">Web design</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item business design brand">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/07.jpg" alt="portfolio-img">      
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v1.html" class="text-white stretched-link">Website Optimization for TechWave</a></h6>
+                            <small class="text-white">Web design</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item business design">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/06.jpg" alt="portfolio-img"> 
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v2.html" class="text-white stretched-link">E-commerce Expansion</a></h6>
+                            <small class="text-white">Digital Marketing</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item business design">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/08.jpg" alt="portfolio-img"> 
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v1.html" class="text-white stretched-link">A Triumph of Software</a></h6>
+                            <small class="text-white">Digital Marketing</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item -->
+            <div class="col-sm-6 col-lg-4 grid-item ui">
+                <div class="card card-element-hover card-metro-hover">
+                    <!-- Card Image -->              
+                    <img src="https://mizzle.webestica.com/assets/images/portfolio/masonry/03.jpg" alt="portfolio-img"> 
+                    
+                    <!-- Card elements -->
+                    <div class="card-img-overlay hover-element d-flex"> 
+                        <!-- Info -->
+                        <div class="card-text mt-auto">
+                            <h6 class="mb-0"><a href="portfolio-case-studies-v1.html" class="text-white stretched-link">Social Media Engagement</a></h6>
+                            <small class="text-white">UI/UX design</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item END -->
+
+        <!-- button -->
+        <div class="text-center mt-7">
+            <button class="btn btn-lg btn-outline-light mb-0"><i class="fa-solid fa-spinner fa-lg me-2"></i>Load more work</button>
+        </div>  
+
+    </div>  
+</section>
+
 <section class="bg-light">
     <div class="container">
         <!-- Title -->
@@ -1873,76 +2064,134 @@ section#appendHere {
 <section class="bg-dark" data-bs-theme="dark">
     <div class="container" data-sticky-container>
         <div class="row">
-            <!-- Title and content -->
             <div class="col-lg-5 mb-5">
                 <div data-sticky data-margin-top="100" data-sticky-for="768">
-                    <h2 class="mb-4">Workflow become clearer and more organized</h2>
-                    <p class="mb-0">Two before narrow not relied on how except moment myself Dejection assurance Mrs led certainly So gate at no only none open Betrayed.</p>
+                    <h5>From idea to everyday growth</h5>
+                    <h3 class="mb-4">Our SPROUT™ process, built for founders</h3>
+                    <p class="mb-0">We turn clarity into customers. Six plain-spoken steps that move your idea from sketch to sales—without waste, rework, or guesswork.</p>
                     <hr class="my-5 text-white">
-
                     <div class="d-flex align-items-sm-center mb-3">
-                        <!-- Avatar -->
                         <div class="avatar avatar-xl flex-shrink-0">
                             <img class="avatar-img rounded-circle" src="https://mizzle.webestica.com/assets/images/avatar/05.jpg" alt="avatar">
                         </div>
                         <div class="ms-3">
-                            <h6 class="mb-1">Carolyn Ortiz</h6>
-                            <p class="mb-0">Manager at Mizzle agency</p>
+                            <h6 class="mb-1">Animesh Singh</h6>
+                            <p class="mb-0">Chief Brand Gardener</p>
                         </div>
                     </div>
-                    <!-- Content -->
-                    <q class="fs-6 fw-normal heading-color mb-4">At our agency, we don't just create campaigns; we craft immersive experiences that resonate with your audience, leaving an indelible mark in their hearts and minds.</q>
+                    <q class="fs-6 fw-normal heading-color mb-4">Great brands are not invented; they are cultivated—seeded with clarity, watered by craft, and pruned by truth—until customers volunteer your story as their own, everywhere.</q>
                 </div>
             </div>
 
             <div class="col-lg-6 ms-auto">
-                <!-- Step item -->
                 <div class="card border p-4 p-sm-5 mb-5">
-                    <!-- Card body -->
                     <div class="card-body p-0 pb-5">
-                        <!-- Number -->
                         <div class="icon-lg bg-primary rounded-circle fw-bold text-white mb-3">01</div>
-                        <h4 class="mb-3">Create your account and start your work</h4>
-                        <p class="heading-color">Some product ideas come easily, while others take some work to find.</p>
+                        <h4 class="mb-3">Seed the insight, align the intent</h4>
+                        <p class="heading-color">Establish truths, define ICPs, choose goals, budgets, and success metrics before making anything that matters.</p>
+                        <ul class="list-group list-group-borderless">
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Founder interviews, market and competitor scan</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Analytics, tech, security baselines audit</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Problem–solution and value hypothesis</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>90-day plan and success metrics</li>
+                        </ul>
                     </div>
 
-                    <!-- Card footer -->
                     <div class="card-footer bg-transparent text-center p-0">
                         <img src="https://mizzle.webestica.com/assets/images/elements/saas-decoration/decoration-4.png" alt="">
                     </div>
                 </div>
 
-                <!-- Step item -->
                 <div class="card border p-4 p-sm-5 mb-5">
-                    <!-- Card body -->
                     <div class="card-body p-0 pb-5">
-                        <!-- Number -->
                         <div class="icon-lg bg-primary rounded-circle fw-bold text-white mb-3">02</div>
-                        <h4 class="mb-3">Install the code to organize the works</h4>
-                        <p class="heading-color">It drew a hill from me. Departure defective arranging rapturous did believe him all had supported.</p>
+                        <h4 class="mb-3">Plant positioning and cohesive brand system</h4>
+                        <p class="heading-color">Craft narrative, tone, visuals, guidelines, and launch assets that resonate and differentiate consistently across touchpoints.</p>
+                        <ul class="list-group list-group-borderless">
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Positioning, messaging, voice architecture</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Logo, typography, color, design tokens</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Brand playbook and launch kit</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Asset templates for teams</li>
+                        </ul>
                     </div>
 
-                    <!-- Card footer -->
                     <div class="card-footer bg-transparent text-center p-0">
                         <img src="https://mizzle.webestica.com/assets/images/elements/saas-decoration/decoration-2.png" alt="">
                     </div>
                 </div>
 
-                <!-- Step item -->
                 <div class="card border p-4 p-sm-5 mb-5">
-                    <!-- Card body -->
                     <div class="card-body p-0 pb-5">
-                        <!-- Number -->
                         <div class="icon-lg bg-primary rounded-circle fw-bold text-white mb-3">03</div>
-                        <h4 class="mb-3">Get a free marketing automation guide</h4>
-                        <p class="heading-color">The chatbot can be personalized to match the brand voice and tone, making it feel like an extension of the company.</p>
+                        <h4 class="mb-3">Root the product in solid engineering</h4>
+                        <p class="heading-color">Design UX, build secure stacks, integrate APIs, automate delivery, and document everything for scalability tomorrow.</p>
+                        <ul class="list-group list-group-borderless">
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>IA, wireframes, interactive prototypes</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Web/app, CMS/e-com, integrations</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>CI/CD, testing, observability</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Accessibility and Core Web Vitals</li>
+                        </ul>
                     </div>
 
-                    <!-- Card footer -->
                     <div class="card-footer bg-transparent text-center p-0">
                         <img src="https://mizzle.webestica.com/assets/images/elements/saas-decoration/decoration-3.png" alt="">
                     </div>
                 </div>
+
+                <div class="card border p-4 p-sm-5 mb-5">
+                    <div class="card-body p-0 pb-5">
+                        <div class="icon-lg bg-primary rounded-circle fw-bold text-white mb-3">04</div>
+                        <h4 class="mb-3">Oxygenate demand with PR and community</h4>
+                        <p class="heading-color">Publish content, orchestrate SEO, run social, manage reviews, and spark local discovery loops that convert.</p>
+                        <ul class="list-group list-group-borderless">
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Topical maps, content calendar, newsroom</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>GMB ops, reviews, hyperlocal plays</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Influencers, UGC, partnerships</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>PR outreach and monitoring</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer bg-transparent text-center p-0">
+                        <img src="https://mizzle.webestica.com/assets/images/elements/saas-decoration/decoration-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card border p-4 p-sm-5 mb-5">
+                    <div class="card-body p-0 pb-5">
+                        <div class="icon-lg bg-primary rounded-circle fw-bold text-white mb-3">05</div>
+                        <h4 class="mb-3">Underpin trust with security and governance</h4>
+                        <p class="heading-color">Harden access, remediate vulnerabilities, monitor continuously, and prepare crisis runbooks to protect reputation and data.</p>
+                        <ul class="list-group list-group-borderless">
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>VAPT, IAM, backups/DR drills</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Policies, logging, alerting, SLAs</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>ORM listening, escalation protocols</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Compliance and audit trails</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer bg-transparent text-center p-0">
+                        <img src="https://mizzle.webestica.com/assets/images/elements/saas-decoration/decoration-3.png" alt="">
+                    </div>
+                </div>
+
+                <div class="card border p-4 p-sm-5 mb-5">
+                    <div class="card-body p-0 pb-5">
+                        <div class="icon-lg bg-primary rounded-circle fw-bold text-white mb-3">06</div>
+                        <h4 class="mb-3">Thrive through experiments, automation, and scale</h4>
+                        <p class="heading-color">Run CRO, model incrementality, automate winners, and reallocate budgets towards proven, compounding growth over time.</p>
+                        <ul class="list-group list-group-borderless">
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Experiment backlog and cadence</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Hyperlocal targeting, offer tests</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Dashboards: CAC, LTV, payback</li>
+                           <li class="list-group-item heading-color d-flex mb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Weekly kill/scale rules</li>
+                        </ul>
+                    </div>
+
+                    <div class="card-footer bg-transparent text-center p-0">
+                        <img src="https://mizzle.webestica.com/assets/images/elements/saas-decoration/decoration-3.png" alt="">
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -2082,39 +2331,28 @@ section#appendHere {
             <!-- Content -->
             <div class="col-lg-6 mb-5 mb-sm-0">
                 <!-- Title -->
-                <h2 class="mb-0">Join <span class="text-primary">4,500+ </span> Startups growing with Mizzle </h2>
+                <h4 class="mb-0">Technology-Driven Franchise Marketing System Blueprint for Sustainable Scale</h4>
 
                 <!-- List -->
                 <div class="row mt-4">
                     <div class="col-md-6">
                         <ul class="list-group list-group-borderless">
-                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>30 days free trial</li>
-                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Personalization onboarding</li>
-                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Access to all features</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Centralized lead routing CRM</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Multi-location SEO playbooks standardized</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>GMB optimization and google reviews</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Hyperlocal ads with geofencing</li>
                         </ul>
                     </div>
 
                     <div class="col-md-6">
                         <ul class="list-group list-group-borderless">
-                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Web + mobile app</li>
-                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Very easy customization</li>
-                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Cloud-based</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Unified content asset library</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Marketing automation and drip</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Performance dashboards and attribution</li>
+                            <li class="list-group-item heading-color pb-0"><i class="bi bi-patch-check-fill text-primary me-2"></i>Franchisee portals and approvals</li>
                         </ul>
                     </div>
                 </div>
-
-                <!-- Newsletter -->
-                <form class="row g-2 align-items-center mt-4">
-                    <div class="col-md-8 col-lg-6 col-xxl-8">
-                        <input type="email" class="form-control form-control-lg" placeholder="Enter your email address">
-                    </div>
-                    <div class="col-md-4 col-lg-6 col-xxl-4">
-                        <button type="submit" class="btn btn-lg btn-dark m-0">Subscribe for free</button>
-                    </div>
-                    <div class="small mt-2">By subscribing you agree to our 
-                        <a href="#" class="text-decoration-underline">Privacy Policy</a>
-                    </div>
-                </form>
             </div>
 
             <!-- Image -->
