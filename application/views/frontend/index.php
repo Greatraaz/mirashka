@@ -418,7 +418,7 @@ h5.card-title.custom-heading {
                   <a href="<?=base_url('ignite')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a>
                </div>
                <div class="card-image-container">
-                  <img src="https://s7d4.scene7.com/is/content/hitachivantarastage/homepage-hero-cloud-gif-rectangle" class="card-img-top" alt="Card Image 1">
+                  <img src="<?=base_url('assets/frontend/img/ignite1.jpg') ?>" class="card-img-top" alt="Card Image 1">
                </div>
             </div>
          </div>
@@ -433,7 +433,7 @@ h5.card-title.custom-heading {
                   <a href="<?=base_url('establish')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
                <div class="card-image-container">
-                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/panel2-tab2-hitachi-iq-rectangle:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+                  <img src="<?=base_url('assets/frontend/img/establish1.jpg') ?>" class="card-img-top" alt="Card Image 1">
                </div>
             </div>
          </div>
@@ -448,7 +448,7 @@ h5.card-title.custom-heading {
                   <a href="<?=base_url('amplify')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
                <div class="card-image-container">
-                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/panel2-tab1-hitachi-iq-rectangle:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+                  <img src="<?=base_url('assets/frontend/img/amplify1.jpg') ?>" class="card-img-top" alt="Card Image 1">
                </div>
             </div>
          </div>
@@ -463,7 +463,7 @@ h5.card-title.custom-heading {
                   <a href="<?=base_url('evolve')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
                <div class="card-image-container">
-                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/rwth-aachen-university-square:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+                  <img src="<?=base_url('assets/frontend/img/evolve1.jpg') ?>" class="card-img-top" alt="Card Image 1">
                </div>
             </div>
          </div>
@@ -478,7 +478,7 @@ h5.card-title.custom-heading {
                   <a href="<?=base_url('secure')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
                <div class="card-image-container">
-                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/rwth-aachen-university-square:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+                  <img src="<?=base_url('assets/frontend/img/secure1.jpg') ?>" class="card-img-top" alt="Card Image 1">
                </div>
             </div>
          </div>
@@ -493,7 +493,7 @@ h5.card-title.custom-heading {
                   <a href="<?=base_url('accelerate')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                </div>
                <div class="card-image-container">
-                  <img src="https://s7d9.scene7.com/is/image/hitachivantara/rwth-aachen-university-square:tabsimage?fmt=webp" class="card-img-top" alt="Card Image 1">
+                  <img src="<?=base_url('assets/frontend/img/accelerate1.jpg') ?>" class="card-img-top" alt="Card Image 1">
                </div>
             </div>
          </div>
@@ -509,7 +509,7 @@ h5.card-title.custom-heading {
             <div class="row pe-xl-5">
                <div class="col-sm-6">
                   <!-- About image -->
-                  <img src="<?=base_url('assets/frontend/images/about/02.jpg') ?>" class="rounded" alt="about-img">
+                  <img src="<?=base_url('assets/frontend/img/section1.webp') ?>" class="rounded" alt="about-img">
                   <!-- SVG decoration -->
                   <figure class="text-end me-3 mt-n3">
                      <svg class="fill-primary" width="106px" height="96px" viewBox="0 0 106 96" style="enable-background:new 0 0 106 96;" xml:space="preserve">
@@ -544,7 +544,7 @@ h5.card-title.custom-heading {
                      </div>
                   </div>
                   <!-- About image -->
-                  <img src="<?=base_url('assets/frontend/images/about/01.jpg') ?>" class="rounded" alt="about-img-2">
+                  <img src="<?=base_url('assets/frontend/img/section2.webp') ?>" class="rounded" alt="about-img2">
                </div>
             </div>
             <!-- Row END -->
