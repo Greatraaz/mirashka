@@ -147,7 +147,7 @@ h2.text-white.display-7.my-2 {
 
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/establish.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/establish.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="bg-overlay bg-linear-overlay"></div>
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
@@ -165,7 +165,7 @@ h2.text-white.display-7.my-2 {
             </div>
 
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/ignite.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/ignite.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="bg-overlay bg-linear-overlay"></div>
 
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
@@ -202,7 +202,7 @@ h2.text-white.display-7.my-2 {
             </div>
 
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/evolve.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/evolve.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="bg-overlay bg-linear-overlay"></div>
 
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
@@ -221,7 +221,7 @@ h2.text-white.display-7.my-2 {
             </div>
 
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/secure.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/secure.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="bg-overlay bg-linear-overlay"></div>
 
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
@@ -240,7 +240,7 @@ h2.text-white.display-7.my-2 {
             </div>
 
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/accelerate.jpg') ?>) no-repeat; background-size:cover; background-position:center;">
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/accelerate.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="bg-overlay bg-linear-overlay"></div>
 
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
