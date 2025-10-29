@@ -164,6 +164,7 @@ h2.text-white.display-7.my-2 {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/establish.webp') ?>) no-repeat; background-size:cover; background-position:center;">
+                    <div class="bg-overlay bg-linear-overlay"></div>
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row justify-content-center">
