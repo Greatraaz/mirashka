@@ -116,7 +116,6 @@ div#customCarousel {
     width: auto;
 }
 .sliderh a {
-    margin: auto;
     color: #ffffff;
     margin-top: 0;
 }
@@ -147,14 +146,13 @@ h2.text-white.display-7.my-2 {
 
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/establish.webp') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <div class="bg-overlay bg-linear-overlay"></div>
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/ignite.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-10 text-center mt-auto">
+                            <div class="row">
+                                <div class="col-md-8 mt-auto">
                                     <span class="fbdvs">Ignite Your Brand Identity</span>
-                                    <h2 class="text-white display-7 my-2">Turn raw ideas into <span class="text-primary">unforgettable, </span> coherent brand systems</h2>
+                                    <h2 class="text-white display-7 my-2">Turn raw ideas into unforgettable, coherent brand systems</h2>
                                     <p class="text-white mb-5">Strategy, story, and signature visuals aligned to launch brands that resonate, differentiate, and scale across platforms, markets, and moments worldwide.</p>
                                     <a href="<?=base_url('ignite')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a>
                                 </div>
@@ -165,9 +163,7 @@ h2.text-white.display-7.my-2 {
             </div>
 
             <div class="swiper-slide">
-                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/ignite.webp') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <div class="bg-overlay bg-linear-overlay"></div>
-
+                <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/establish.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
                             <div class="row justify-content-center">
@@ -175,7 +171,7 @@ h2.text-white.display-7.my-2 {
                                 <span class="fbdvs">Establish Web, App, Software</span>
                                     <h2 class="text-white display-7 my-2">Build resilient platforms engineered for growth and reliability</h2>
                                     <p class="text-white mb-5">From UX to cloud backends, we deliver secure code, clean interfaces, and integrations that perform, scale smoothly, and reduce debt.</p>
-                                    <a href="<?=base_url('establish')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+                                    <a href="<?=base_url('establish')?>" class="custom-button m-auto">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -185,13 +181,12 @@ h2.text-white.display-7.my-2 {
 
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/amplify.webp') ?>) no-repeat; background-size:cover; background-position:center;">
-                    <div class="bg-overlay bg-linear-overlay"></div>
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-10 text-center mt-auto">
+                            <div class="row">
+                                <div class="col-md-8 mt-auto">
                                     <span class="fbdvs">Amplify Marketing and PR</span>
-                                    <h2 class="text-white display-7 my-2">Turn attention into <span class="text-primary">measurable demand </span> across channels today</h2>
+                                    <h2 class="text-white display-7 my-2">Turn attention into measurable demand across channels today</h2>
                                     <p class="text-white mb-5">SEO, social, PR, reviews, and GMB combine to grow reach, strengthen trust, and convert intent into revenue with efficiency sustainably.</p>
                                     <a href="<?=base_url('amplify')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
@@ -212,7 +207,7 @@ h2.text-white.display-7.my-2 {
                                 <span class="fbdvs">Evolve Operations with Outsourcing</span>
                                     <h2 class="text-white display-7 my-2">Extend your team with <span class="text-primary">specialized, on-demand talent</span> that delivers</h2>
                                     <p class="text-white mb-5">Designers, developers, and marketers on tap; process automation, governance, and playbooks that cut costs while accelerating consistent, quality delivery cycles.</p>
-                                    <a href="<?=base_url('evolve')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+                                    <a href="<?=base_url('evolve')?>" class="custom-button m-auto">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
@@ -223,11 +218,10 @@ h2.text-white.display-7.my-2 {
             <div class="swiper-slide">
                 <div class="card overflow-hidden min-vh-100 rounded-0" style="background:url(<?=base_url('assets/frontend/img/banner/secure.webp') ?>) no-repeat; background-size:cover; background-position:center;">
                     <div class="bg-overlay bg-linear-overlay"></div>
-
                     <div class="position-relative z-index-2 d-flex flex-column m-auto h-100 py-9 slup"> 
                         <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-md-10 text-center mt-auto">
+                            <div class="row">
+                                <div class="col-md-8 mt-auto">
                                     <span class="fbdvs">Secure Brand, Data, Narrative</span>
                                     <h2 class="text-white display-7 my-2">Protect systems and <span class="text-primary">reputation with proactive defense </span>and response</h2>
                                     <p class="text-white mb-5">VAPT, cybersecurity, and crisis playbooks close gaps fast, harden posture, and restore trust with disciplined monitoring, alerts, and audits continuously.</p>
@@ -250,7 +244,7 @@ h2.text-white.display-7.my-2 {
                                 <span class="fbdvs">Accelerate Performance and ROI</span>
                                     <h2 class="text-white display-7 2">Scale revenue with experimentation, automation, and smarter analytics</h2>
                                     <p class="text-white mb-5">CRO, funnels, hyperlocal campaigns, and dashboards optimize journeys, maximize LTV, and concentrate spend on channels proving demonstrable, incremental growth reliably.</p>
-                                    <a href="<?=base_url('accelerate')?>" class="custom-button">Learn More <i class="fa fa-arrow-right"></i></a></a>
+                                    <a href="<?=base_url('accelerate')?>" class="custom-button m-auto">Learn More <i class="fa fa-arrow-right"></i></a></a>
                                 </div>
                             </div>
                         </div>
